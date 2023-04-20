@@ -1,0 +1,1554 @@
+<<<<<<< HEAD
+[INFO] 22:40:44:617 KERNELPLANIFICADORES/(15650:15650): inicialice los semaforos
+[INFO] 22:40:44:618 KERNELPLANIFICADORES/(15650:15650): Soy el Kernel y termine la config! Hice uso de la shared!
+[INFO] 22:40:44:618 KERNELPLANIFICADORES/(15650:15650): El kernel tiene socket 5
+
+[INFO] 22:41:20:768 KERNELPLANIFICADORES/(15740:15740): inicialice los semaforos
+[INFO] 22:41:20:768 KERNELPLANIFICADORES/(15740:15740): Soy el Kernel y termine la config! Hice uso de la shared!
+[INFO] 22:41:20:768 KERNELPLANIFICADORES/(15740:15740): El kernel tiene socket 5
+
+[INFO] 22:41:24:244 KERNELPLANIFICADORES/(15740:15782): --RECIBIENDO INSTRUCCIONES--
+[INFO] 22:41:24:245 KERNELPLANIFICADORES/(15740:15782): ---Cantidad de Instrucciones: 12--
+
+[INFO] 22:41:24:245 KERNELPLANIFICADORES/(15740:15782): ---Op_code: 1--
+
+[INFO] 22:41:24:245 KERNELPLANIFICADORES/(15740:15782): ---Longitud:: 9
+[INFO] 22:41:24:245 KERNELPLANIFICADORES/(15740:15782): ---Instruccion: SET AX 1
+[INFO] 22:41:24:245 KERNELPLANIFICADORES/(15740:15782): ---Longitud:: 10
+[INFO] 22:41:24:245 KERNELPLANIFICADORES/(15740:15782): ---Instruccion: ADD AX BX
+[INFO] 22:41:24:245 KERNELPLANIFICADORES/(15740:15782): ---Longitud:: 12
+[INFO] 22:41:24:245 KERNELPLANIFICADORES/(15740:15782): ---Instruccion: MOV_IN CX 4
+[INFO] 22:41:24:245 KERNELPLANIFICADORES/(15740:15782): ---Longitud:: 13
+[INFO] 22:41:24:245 KERNELPLANIFICADORES/(15740:15782): ---Instruccion: MOV_OUT 8 DX
+[INFO] 22:41:24:245 KERNELPLANIFICADORES/(15740:15782): ---Longitud:: 13
+[INFO] 22:41:24:245 KERNELPLANIFICADORES/(15740:15782): ---Instruccion: I/O DISCO 10
+[INFO] 22:41:24:245 KERNELPLANIFICADORES/(15740:15782): ---Longitud:: 15
+[INFO] 22:41:24:245 KERNELPLANIFICADORES/(15740:15782): ---Instruccion: I/O TECLADO AX
+[INFO] 22:41:24:245 KERNELPLANIFICADORES/(15740:15782): ---Longitud:: 16
+[INFO] 22:41:24:245 KERNELPLANIFICADORES/(15740:15782): ---Instruccion: I/O PANTALLA BX
+[INFO] 22:41:24:245 KERNELPLANIFICADORES/(15740:15782): ---Longitud:: 9
+[INFO] 22:41:24:245 KERNELPLANIFICADORES/(15740:15782): ---Instruccion: SET AX 5
+[INFO] 22:41:24:245 KERNELPLANIFICADORES/(15740:15782): ---Longitud:: 10
+[INFO] 22:41:24:245 KERNELPLANIFICADORES/(15740:15782): ---Instruccion: MOV BX CX
+[INFO] 22:41:24:245 KERNELPLANIFICADORES/(15740:15782): ---Longitud:: 16
+[INFO] 22:41:24:245 KERNELPLANIFICADORES/(15740:15782): ---Instruccion: I/O PANTALLA AX
+[INFO] 22:41:24:245 KERNELPLANIFICADORES/(15740:15782): ---Longitud:: 5
+[INFO] 22:41:24:245 KERNELPLANIFICADORES/(15740:15782): ---Instruccion: EXIT
+[INFO] 22:41:24:245 KERNELPLANIFICADORES/(15740:15782): ---Longitud:: 19
+[INFO] 22:41:24:245 KERNELPLANIFICADORES/(15740:15782): ---Instruccion: [64, 256, 128, 32]
+[INFO] 22:41:24:245 KERNELPLANIFICADORES/(15740:15782): hice un lock de Los numeros de Proceso
+[INFO] 22:41:24:245 KERNELPLANIFICADORES/(15740:15782): hice un unlock y el kernel creo un pcb con proces id: 0 y estado:0
+[INFO] 22:41:54:946 KERNELPLANIFICADORES/(15911:15912): Iniciando planificador a largo plazo con: RR
+[INFO] 22:52:13:599 KERNELPLANIFICADORES/(16724:16725): Iniciando planificador a largo plazo con: RR
+[INFO] 21:36:42:777 KERNELPLANIFICADORES/(2975:2976): Iniciando planificador a largo plazo con: RR
+[INFO] 21:59:43:698 KERNELPLANIFICADORES/(3667:3668): Iniciando planificador a largo plazo con: RR
+[INFO] 22:03:41:470 KERNELPLANIFICADORES/(4238:4239): Iniciando planificador a largo plazo con: RR
+[INFO] 22:06:39:631 KERNELPLANIFICADORES/(4607:4608): Iniciando planificador a largo plazo con: RR
+[INFO] 23:20:09:127 KERNELPLANIFICADORES/(7028:7029): Iniciando planificador a largo plazo con: RR
+[INFO] 23:21:18:063 KERNELPLANIFICADORES/(7147:7148): Iniciando planificador a largo plazo con: RR
+[INFO] 23:21:32:723 KERNELPLANIFICADORES/(7252:7253): Iniciando planificador a largo plazo con: RR
+[INFO] 23:22:08:879 KERNELPLANIFICADORES/(7396:7397): Iniciando planificador a largo plazo con: RR
+[INFO] 23:22:21:524 KERNELPLANIFICADORES/(7566:7567): Iniciando planificador a largo plazo con: RR
+[INFO] 23:22:33:878 KERNELPLANIFICADORES/(7701:7702): Iniciando planificador a largo plazo con: RR
+[INFO] 23:23:02:638 KERNELPLANIFICADORES/(7820:7821): Iniciando planificador a largo plazo con: RR
+[INFO] 23:27:00:839 KERNELPLANIFICADORES/(8258:8259): Iniciando planificador a largo plazo con: RR
+[INFO] 23:27:22:420 KERNELPLANIFICADORES/(8376:8377): Iniciando planificador a largo plazo con: RR
+[INFO] 23:28:02:342 KERNELPLANIFICADORES/(8479:8480): Iniciando planificador a largo plazo con: RR
+[INFO] 23:28:59:413 KERNELPLANIFICADORES/(8712:8713): Iniciando planificador a largo plazo con: RR
+[INFO] 23:29:35:987 KERNELPLANIFICADORES/(8821:8822): Iniciando planificador a largo plazo con: RR
+[INFO] 23:30:14:730 KERNELPLANIFICADORES/(9056:9057): Iniciando planificador a largo plazo con: RR
+[INFO] 23:30:24:681 KERNELPLANIFICADORES/(9143:9144): Iniciando planificador a largo plazo con: RR
+[INFO] 23:32:28:321 KERNELPLANIFICADORES/(9334:9335): Iniciando planificador a largo plazo con: RR
+[INFO] 23:33:20:495 KERNELPLANIFICADORES/(9546:9547): Iniciando planificador a largo plazo con: RR
+[INFO] 23:33:24:525 KERNELPLANIFICADORES/(9597:9598): Iniciando planificador a largo plazo con: RR
+[INFO] 23:46:02:576 KERNELPLANIFICADORES/(10142:10143): Iniciando planificador a largo plazo con: RR
+[INFO] 23:46:22:853 KERNELPLANIFICADORES/(10246:10247): Iniciando planificador a largo plazo con: RR
+[INFO] 23:47:01:577 KERNELPLANIFICADORES/(10336:10337): Iniciando planificador a largo plazo con: RR
+[INFO] 23:48:01:225 KERNELPLANIFICADORES/(10449:10450): Iniciando planificador a largo plazo con: RR
+[INFO] 23:48:43:626 KERNELPLANIFICADORES/(10632:10633): Iniciando planificador a largo plazo con: RR
+[INFO] 23:49:42:665 KERNELPLANIFICADORES/(10772:10773): Iniciando planificador a largo plazo con: RR
+[INFO] 23:50:26:006 KERNELPLANIFICADORES/(10887:10888): Iniciando planificador a largo plazo con: RR
+[INFO] 23:50:52:986 KERNELPLANIFICADORES/(11018:11019): Iniciando planificador a largo plazo con: RR
+[INFO] 23:52:21:776 KERNELPLANIFICADORES/(11205:11207): Iniciando planificador a largo plazo con: RR
+[INFO] 23:52:51:793 KERNELPLANIFICADORES/(11388:11389): Iniciando planificador a largo plazo con: RR
+[INFO] 23:53:03:950 KERNELPLANIFICADORES/(11478:11479): Iniciando planificador a largo plazo con: RR
+[INFO] 23:55:07:907 KERNELPLANIFICADORES/(11904:11905): Iniciando planificador a largo plazo con: RR
+[INFO] 23:56:22:015 KERNELPLANIFICADORES/(11997:11998): Iniciando planificador a largo plazo con: RR
+[INFO] 23:56:55:232 KERNELPLANIFICADORES/(12101:12102): Iniciando planificador a largo plazo con: RR
+[INFO] 23:57:48:925 KERNELPLANIFICADORES/(12360:12361): Iniciando planificador a largo plazo con: RR
+[INFO] 23:58:07:868 KERNELPLANIFICADORES/(12516:12517): Iniciando planificador a largo plazo con: RR
+[INFO] 23:58:40:405 KERNELPLANIFICADORES/(12665:12666): Iniciando planificador a largo plazo con: RR
+[INFO] 00:02:26:499 KERNELPLANIFICADORES/(12907:12908): Iniciando planificador a largo plazo con: RR
+[INFO] 00:07:22:847 KERNELPLANIFICADORES/(13093:13094): Iniciando planificador a largo plazo con: RR
+[INFO] 00:09:39:946 KERNELPLANIFICADORES/(13340:13341): Iniciando planificador a largo plazo con: RR
+[INFO] 00:11:21:702 KERNELPLANIFICADORES/(13615:13616): Iniciando planificador a largo plazo con: RR
+[INFO] 00:13:48:303 KERNELPLANIFICADORES/(13835:13836): Iniciando planificador a largo plazo con: RR
+[INFO] 00:14:08:441 KERNELPLANIFICADORES/(13968:13969): Iniciando planificador a largo plazo con: RR
+[INFO] 00:14:23:473 KERNELPLANIFICADORES/(14096:14097): Iniciando planificador a largo plazo con: RR
+[INFO] 00:14:38:859 KERNELPLANIFICADORES/(14186:14187): Iniciando planificador a largo plazo con: RR
+[INFO] 00:15:15:563 KERNELPLANIFICADORES/(14302:14303): Iniciando planificador a largo plazo con: RR
+[INFO] 00:16:58:846 KERNELPLANIFICADORES/(14536:14537): Iniciando planificador a largo plazo con: RR
+[INFO] 00:20:03:230 KERNELPLANIFICADORES/(14803:14804): Iniciando planificador a largo plazo con: RR
+[INFO] 00:20:14:727 KERNELPLANIFICADORES/(14904:14905): Iniciando planificador a largo plazo con: RR
+[INFO] 00:20:39:191 KERNELPLANIFICADORES/(15017:15018): Iniciando planificador a largo plazo con: RR
+[INFO] 00:21:02:462 KERNELPLANIFICADORES/(15187:15188): Iniciando planificador a largo plazo con: RR
+[INFO] 00:21:10:675 KERNELPLANIFICADORES/(15272:15274): Iniciando planificador a largo plazo con: RR
+[INFO] 00:22:16:757 KERNELPLANIFICADORES/(15413:15414): Iniciando planificador a largo plazo con: RR
+[INFO] 00:22:24:664 KERNELPLANIFICADORES/(15496:15497): Iniciando planificador a largo plazo con: RR
+[INFO] 00:22:50:808 KERNELPLANIFICADORES/(15582:15583): Iniciando planificador a largo plazo con: RR
+[INFO] 00:23:19:269 KERNELPLANIFICADORES/(15782:15783): Iniciando planificador a largo plazo con: RR
+[INFO] 00:23:52:790 KERNELPLANIFICADORES/(15908:15909): Iniciando planificador a largo plazo con: RR
+[INFO] 00:24:52:604 KERNELPLANIFICADORES/(16186:16187): Iniciando planificador a largo plazo con: RR
+[INFO] 00:28:23:250 KERNELPLANIFICADORES/(16451:16452): Iniciando planificador a largo plazo con: RR
+[INFO] 00:28:47:870 KERNELPLANIFICADORES/(16555:16556): Iniciando planificador a largo plazo con: RR
+[INFO] 00:42:23:828 KERNELPLANIFICADORES/(16799:16800): Iniciando planificador a largo plazo con: RR
+[INFO] 00:42:53:102 KERNELPLANIFICADORES/(16897:16898): Iniciando planificador a largo plazo con: RR
+[INFO] 00:43:41:298 KERNELPLANIFICADORES/(17051:17052): Iniciando planificador a largo plazo con: RR
+[INFO] 00:44:09:682 KERNELPLANIFICADORES/(17176:17177): Iniciando planificador a largo plazo con: RR
+[INFO] 00:44:29:348 KERNELPLANIFICADORES/(17272:17273): Iniciando planificador a largo plazo con: RR
+[INFO] 00:45:35:422 KERNELPLANIFICADORES/(17376:17377): Iniciando planificador a largo plazo con: RR
+[INFO] 00:45:59:915 KERNELPLANIFICADORES/(17524:17525): Iniciando planificador a largo plazo con: RR
+[INFO] 00:47:05:309 KERNELPLANIFICADORES/(17737:17738): Iniciando planificador a largo plazo con: RR
+[INFO] 00:47:46:386 KERNELPLANIFICADORES/(17902:17903): Iniciando planificador a largo plazo con: RR
+[INFO] 00:48:03:239 KERNELPLANIFICADORES/(18011:18012): Iniciando planificador a largo plazo con: RR
+[INFO] 00:48:22:778 KERNELPLANIFICADORES/(18158:18159): Iniciando planificador a largo plazo con: RR
+[INFO] 00:49:01:517 KERNELPLANIFICADORES/(18258:18259): Iniciando planificador a largo plazo con: RR
+[INFO] 00:49:20:253 KERNELPLANIFICADORES/(18454:18455): Iniciando planificador a largo plazo con: RR
+[INFO] 00:49:31:770 KERNELPLANIFICADORES/(18541:18542): Iniciando planificador a largo plazo con: RR
+[INFO] 00:50:03:440 KERNELPLANIFICADORES/(18638:18639): Iniciando planificador a largo plazo con: RR
+[INFO] 00:50:11:787 KERNELPLANIFICADORES/(18714:18715): Iniciando planificador a largo plazo con: RR
+[INFO] 00:51:57:177 KERNELPLANIFICADORES/(18846:18847): Iniciando planificador a largo plazo con: RR
+[INFO] 00:52:25:864 KERNELPLANIFICADORES/(19164:19165): Iniciando planificador a largo plazo con: RR
+[INFO] 17:21:13:260 KERNELPLANIFICADORES/(1870:1871): Iniciando planificador a largo plazo con: RR
+[INFO] 17:26:28:136 KERNELPLANIFICADORES/(2158:2159): Iniciando planificador a largo plazo con: RR
+[INFO] 17:28:00:419 KERNELPLANIFICADORES/(2284:2285): Iniciando planificador a largo plazo con: RR
+[INFO] 17:30:59:461 KERNELPLANIFICADORES/(2450:2451): Iniciando planificador a largo plazo con: RR
+[INFO] 17:32:14:839 KERNELPLANIFICADORES/(2618:2619): Iniciando planificador a largo plazo con: RR
+[INFO] 17:32:29:695 KERNELPLANIFICADORES/(2720:2721): Iniciando planificador a largo plazo con: RR
+[INFO] 17:32:57:220 KERNELPLANIFICADORES/(2826:2827): Iniciando planificador a largo plazo con: RR
+[INFO] 17:35:54:080 KERNELPLANIFICADORES/(2989:2990): Iniciando planificador a largo plazo con: RR
+[INFO] 17:36:04:146 KERNELPLANIFICADORES/(3080:3081): Iniciando planificador a largo plazo con: RR
+[INFO] 17:38:02:596 KERNELPLANIFICADORES/(3222:3223): Iniciando planificador a largo plazo con: RR
+[INFO] 17:43:28:368 KERNELPLANIFICADORES/(3440:3441): Iniciando planificador a largo plazo con: RR
+[INFO] 17:46:38:102 KERNELPLANIFICADORES/(3648:3649): Iniciando planificador a largo plazo con: RR
+[INFO] 17:47:46:566 KERNELPLANIFICADORES/(3749:3750): Iniciando planificador a largo plazo con: RR
+[INFO] 17:48:38:612 KERNELPLANIFICADORES/(3879:3880): Iniciando planificador a largo plazo con: RR
+[INFO] 17:49:10:158 KERNELPLANIFICADORES/(4036:4037): Iniciando planificador a largo plazo con: RR
+[INFO] 17:49:49:440 KERNELPLANIFICADORES/(4207:4208): Iniciando planificador a largo plazo con: RR
+[INFO] 17:50:06:321 KERNELPLANIFICADORES/(4303:4304): Iniciando planificador a largo plazo con: RR
+[INFO] 17:50:50:649 KERNELPLANIFICADORES/(4480:4481): Iniciando planificador a largo plazo con: RR
+[INFO] 17:51:01:417 KERNELPLANIFICADORES/(4542:4543): Iniciando planificador a largo plazo con: RR
+[INFO] 17:51:18:159 KERNELPLANIFICADORES/(4639:4640): Iniciando planificador a largo plazo con: RR
+[INFO] 17:52:39:724 KERNELPLANIFICADORES/(4788:4789): Iniciando planificador a largo plazo con: RR
+[INFO] 17:52:45:104 KERNELPLANIFICADORES/(4842:4843): Iniciando planificador a largo plazo con: RR
+[INFO] 17:55:17:993 KERNELPLANIFICADORES/(4967:4968): Iniciando planificador a largo plazo con: RR
+[INFO] 17:57:35:219 KERNELPLANIFICADORES/(5181:5182): Iniciando planificador a largo plazo con: RR
+[INFO] 17:59:30:170 KERNELPLANIFICADORES/(5308:5309): Iniciando planificador a largo plazo con: RR
+[INFO] 17:59:48:440 KERNELPLANIFICADORES/(5414:5415): Iniciando planificador a largo plazo con: RR
+[INFO] 18:01:15:580 KERNELPLANIFICADORES/(5533:5534): Iniciando planificador a largo plazo con: RR
+[INFO] 18:01:54:666 KERNELPLANIFICADORES/(5662:5663): Iniciando planificador a largo plazo con: RR
+[INFO] 18:06:37:293 KERNELPLANIFICADORES/(5828:5829): Iniciando planificador a largo plazo con: RR
+[INFO] 18:08:38:012 KERNELPLANIFICADORES/(5962:5963): Iniciando planificador a largo plazo con: RR
+[INFO] 18:09:23:960 KERNELPLANIFICADORES/(6063:6064): Iniciando planificador a largo plazo con: RR
+[INFO] 18:15:17:504 KERNELPLANIFICADORES/(6361:6363): Iniciando planificador a largo plazo con: RR
+[INFO] 18:15:41:499 KERNELPLANIFICADORES/(6451:6452): Iniciando planificador a largo plazo con: RR
+[INFO] 01:48:38:715 KERNELPLANIFICADORES/(2569:2570): Iniciando planificador a largo plazo con: RR
+[INFO] 01:57:24:364 KERNELPLANIFICADORES/(3023:3024): Iniciando planificador a largo plazo con: RR
+[INFO] 01:58:02:647 KERNELPLANIFICADORES/(3121:3122): Iniciando planificador a largo plazo con: RR
+[INFO] 01:58:43:917 KERNELPLANIFICADORES/(3246:3247): Iniciando planificador a largo plazo con: RR
+[INFO] 02:00:04:691 KERNELPLANIFICADORES/(3396:3397): Iniciando planificador a largo plazo con: RR
+[INFO] 02:01:18:921 KERNELPLANIFICADORES/(3648:3649): Iniciando planificador a largo plazo con: RR
+[INFO] 02:02:09:416 KERNELPLANIFICADORES/(3813:3814): Iniciando planificador a largo plazo con: RR
+[INFO] 02:02:54:328 KERNELPLANIFICADORES/(3961:3962): Iniciando planificador a largo plazo con: RR
+[INFO] 02:03:23:861 KERNELPLANIFICADORES/(4261:4262): Iniciando planificador a largo plazo con: RR
+[INFO] 02:04:15:874 KERNELPLANIFICADORES/(4428:4429): Iniciando planificador a largo plazo con: RR
+[INFO] 02:04:58:781 KERNELPLANIFICADORES/(4573:4574): Iniciando planificador a largo plazo con: RR
+[INFO] 02:23:00:956 KERNELPLANIFICADORES/(5652:5653): Iniciando planificador a largo plazo con: RR
+[INFO] 02:23:41:553 KERNELPLANIFICADORES/(5816:5817): Iniciando planificador a largo plazo con: RR
+[INFO] 02:24:50:066 KERNELPLANIFICADORES/(5970:5971): Iniciando planificador a largo plazo con: RR
+[INFO] 02:26:25:683 KERNELPLANIFICADORES/(6348:6349): Iniciando planificador a largo plazo con: RR
+[INFO] 02:28:27:829 KERNELPLANIFICADORES/(6731:6732): Iniciando planificador a largo plazo con: RR
+[INFO] 02:29:48:144 KERNELPLANIFICADORES/(6936:6937): Iniciando planificador a largo plazo con: RR
+[INFO] 02:43:43:570 KERNELPLANIFICADORES/(7772:7773): Iniciando planificador a largo plazo con: RR
+[INFO] 02:44:22:304 KERNELPLANIFICADORES/(7930:7931): Iniciando planificador a largo plazo con: RR
+[INFO] 02:45:36:361 KERNELPLANIFICADORES/(8097:8100): Iniciando planificador a largo plazo con: RR
+[INFO] 02:47:06:559 KERNELPLANIFICADORES/(8231:8232): Iniciando planificador a largo plazo con: RR
+[INFO] 02:49:04:918 KERNELPLANIFICADORES/(8483:8484): Iniciando planificador a largo plazo con: RR
+[INFO] 02:49:17:627 KERNELPLANIFICADORES/(8605:8606): Iniciando planificador a largo plazo con: RR
+[INFO] 02:49:40:490 KERNELPLANIFICADORES/(8697:8698): Iniciando planificador a largo plazo con: RR
+[INFO] 02:51:29:754 KERNELPLANIFICADORES/(8822:8823): Iniciando planificador a largo plazo con: RR
+[INFO] 02:52:13:882 KERNELPLANIFICADORES/(8931:8932): Iniciando planificador a largo plazo con: RR
+[INFO] 02:52:27:226 KERNELPLANIFICADORES/(9021:9022): Iniciando planificador a largo plazo con: RR
+[INFO] 02:53:19:069 KERNELPLANIFICADORES/(9110:9111): Iniciando planificador a largo plazo con: RR
+[INFO] 02:54:34:498 KERNELPLANIFICADORES/(9220:9221): Iniciando planificador a largo plazo con: RR
+[INFO] 02:54:51:935 KERNELPLANIFICADORES/(9319:9320): Iniciando planificador a largo plazo con: RR
+[INFO] 02:55:50:682 KERNELPLANIFICADORES/(9534:9535): Iniciando planificador a largo plazo con: RR
+[INFO] 02:59:51:939 KERNELPLANIFICADORES/(9627:9628): Iniciando planificador a largo plazo con: RR
+[INFO] 03:04:28:053 KERNELPLANIFICADORES/(9768:9769): Iniciando planificador a largo plazo con: RR
+[INFO] 03:05:17:481 KERNELPLANIFICADORES/(9928:9929): Iniciando planificador a largo plazo con: RR
+[INFO] 03:06:37:446 KERNELPLANIFICADORES/(10164:10165): Iniciando planificador a largo plazo con: RR
+[INFO] 03:08:28:447 KERNELPLANIFICADORES/(10304:10305): Iniciando planificador a largo plazo con: RR
+[INFO] 03:08:31:995 KERNELPLANIFICADORES/(10336:10337): Iniciando planificador a largo plazo con: RR
+[INFO] 03:09:06:210 KERNELPLANIFICADORES/(10460:10461): Iniciando planificador a largo plazo con: RR
+[INFO] 03:09:32:904 KERNELPLANIFICADORES/(10556:10557): Iniciando planificador a largo plazo con: RR
+[INFO] 03:10:46:202 KERNELPLANIFICADORES/(10746:10747): Iniciando planificador a largo plazo con: RR
+[INFO] 03:11:37:065 KERNELPLANIFICADORES/(10843:10844): Iniciando planificador a largo plazo con: RR
+[INFO] 03:13:32:726 KERNELPLANIFICADORES/(10975:10976): Iniciando planificador a largo plazo con: RR
+[INFO] 03:15:19:700 KERNELPLANIFICADORES/(11139:11140): Iniciando planificador a largo plazo con: RR
+[INFO] 03:15:57:619 KERNELPLANIFICADORES/(11285:11286): Iniciando planificador a largo plazo con: RR
+[INFO] 03:25:42:184 KERNELPLANIFICADORES/(11546:11547): Iniciando planificador a largo plazo con: RR
+[INFO] 03:36:03:920 KERNELPLANIFICADORES/(12043:12044): Iniciando planificador a largo plazo con: RR
+[INFO] 03:37:03:879 KERNELPLANIFICADORES/(12320:12321): Iniciando planificador a largo plazo con: RR
+[INFO] 03:37:40:408 KERNELPLANIFICADORES/(12500:12501): Iniciando planificador a largo plazo con: RR
+[INFO] 03:39:34:648 KERNELPLANIFICADORES/(12667:12668): Iniciando planificador a largo plazo con: RR
+[INFO] 03:42:40:810 KERNELPLANIFICADORES/(12816:12817): Iniciando planificador a largo plazo con: RR
+[INFO] 03:45:44:916 KERNELPLANIFICADORES/(13032:13033): Iniciando planificador a largo plazo con: RR
+[INFO] 03:46:25:107 KERNELPLANIFICADORES/(13139:13140): Iniciando planificador a largo plazo con: RR
+[INFO] 03:46:53:466 KERNELPLANIFICADORES/(13294:13295): Iniciando planificador a largo plazo con: RR
+[INFO] 03:47:10:733 KERNELPLANIFICADORES/(13398:13399): Iniciando planificador a largo plazo con: RR
+[INFO] 03:47:38:310 KERNELPLANIFICADORES/(13486:13487): Iniciando planificador a largo plazo con: RR
+[INFO] 03:47:53:924 KERNELPLANIFICADORES/(13576:13577): Iniciando planificador a largo plazo con: RR
+[INFO] 03:48:02:561 KERNELPLANIFICADORES/(13641:13642): Iniciando planificador a largo plazo con: RR
+[INFO] 03:48:49:946 KERNELPLANIFICADORES/(13746:13747): Iniciando planificador a largo plazo con: RR
+[INFO] 03:49:09:008 KERNELPLANIFICADORES/(13837:13838): Iniciando planificador a largo plazo con: RR
+[INFO] 03:49:22:945 KERNELPLANIFICADORES/(13898:13899): Iniciando planificador a largo plazo con: RR
+[INFO] 03:49:42:249 KERNELPLANIFICADORES/(13991:13992): Iniciando planificador a largo plazo con: RR
+[INFO] 03:56:12:759 KERNELPLANIFICADORES/(1951:1952): Iniciando planificador a largo plazo con: RR
+[INFO] 03:58:33:492 KERNELPLANIFICADORES/(2102:2103): Iniciando planificador a largo plazo con: RR
+[INFO] 03:59:40:581 KERNELPLANIFICADORES/(2197:2198): Iniciando planificador a largo plazo con: RR
+[INFO] 04:04:16:323 KERNELPLANIFICADORES/(2364:2365): Iniciando planificador a largo plazo con: RR
+[INFO] 04:04:53:095 KERNELPLANIFICADORES/(2488:2489): Iniciando planificador a largo plazo con: RR
+[INFO] 04:05:36:828 KERNELPLANIFICADORES/(2786:2787): Iniciando planificador a largo plazo con: RR
+[INFO] 04:06:04:751 KERNELPLANIFICADORES/(2964:2965): Iniciando planificador a largo plazo con: RR
+[INFO] 04:06:49:732 KERNELPLANIFICADORES/(3067:3068): Iniciando planificador a largo plazo con: RR
+[INFO] 04:07:19:577 KERNELPLANIFICADORES/(3180:3181): Iniciando planificador a largo plazo con: RR
+[INFO] 04:09:30:869 KERNELPLANIFICADORES/(3317:3318): Iniciando planificador a largo plazo con: RR
+[INFO] 04:11:05:293 KERNELPLANIFICADORES/(3416:3417): Iniciando planificador a largo plazo con: RR
+[INFO] 04:12:59:485 KERNELPLANIFICADORES/(3551:3552): Iniciando planificador a largo plazo con: RR
+[INFO] 04:14:57:745 KERNELPLANIFICADORES/(3681:3682): Iniciando planificador a largo plazo con: RR
+[INFO] 17:30:18:661 KERNELPLANIFICADORES/(2077:2078): Iniciando planificador a largo plazo con: RR
+[INFO] 17:38:18:886 KERNELPLANIFICADORES/(2558:2559): Iniciando planificador a largo plazo con: RR
+[INFO] 17:38:55:961 KERNELPLANIFICADORES/(2658:2659): Iniciando planificador a largo plazo con: RR
+[INFO] 17:53:26:526 KERNELPLANIFICADORES/(3658:3659): Iniciando planificador a largo plazo con: RR
+[INFO] 17:53:32:070 KERNELPLANIFICADORES/(3697:3698): Iniciando planificador a largo plazo con: RR
+[INFO] 17:59:35:710 KERNELPLANIFICADORES/(4067:4068): Iniciando planificador a largo plazo con: RR
+[INFO] 18:05:43:542 KERNELPLANIFICADORES/(4619:4620): Iniciando planificador a largo plazo con: RR
+[INFO] 18:06:34:197 KERNELPLANIFICADORES/(4747:4748): Iniciando planificador a largo plazo con: RR
+[INFO] 18:07:52:210 KERNELPLANIFICADORES/(5204:5205): Iniciando planificador a largo plazo con: RR
+[INFO] 18:09:52:617 KERNELPLANIFICADORES/(5401:5402): Iniciando planificador a largo plazo con: RR
+[INFO] 18:10:41:254 KERNELPLANIFICADORES/(5610:5611): Iniciando planificador a largo plazo con: RR
+[INFO] 18:11:22:506 KERNELPLANIFICADORES/(5877:5878): Iniciando planificador a largo plazo con: RR
+[INFO] 18:11:52:816 KERNELPLANIFICADORES/(6122:6123): Iniciando planificador a largo plazo con: RR
+[INFO] 18:12:23:337 KERNELPLANIFICADORES/(6222:6223): Iniciando planificador a largo plazo con: RR
+[INFO] 18:12:46:424 KERNELPLANIFICADORES/(6319:6320): Iniciando planificador a largo plazo con: RR
+[INFO] 18:12:55:948 KERNELPLANIFICADORES/(6406:6407): Iniciando planificador a largo plazo con: RR
+[INFO] 18:13:35:676 KERNELPLANIFICADORES/(6543:6544): Iniciando planificador a largo plazo con: RR
+[INFO] 18:14:30:454 KERNELPLANIFICADORES/(6691:6692): Iniciando planificador a largo plazo con: RR
+[INFO] 18:15:15:640 KERNELPLANIFICADORES/(6859:6860): Iniciando planificador a largo plazo con: RR
+[INFO] 18:15:30:420 KERNELPLANIFICADORES/(7006:7007): Iniciando planificador a largo plazo con: RR
+[INFO] 18:16:53:376 KERNELPLANIFICADORES/(7343:7344): Iniciando planificador a largo plazo con: RR
+[INFO] 18:17:38:840 KERNELPLANIFICADORES/(7653:7654): Iniciando planificador a largo plazo con: RR
+[INFO] 18:19:37:517 KERNELPLANIFICADORES/(7850:7851): Iniciando planificador a largo plazo con: RR
+[INFO] 18:47:15:534 KERNELPLANIFICADORES/(8429:8430): Iniciando planificador a largo plazo con: RR
+[INFO] 19:06:28:288 KERNELPLANIFICADORES/(9119:9120): Iniciando planificador a largo plazo con: RR
+[INFO] 19:07:00:409 KERNELPLANIFICADORES/(9318:9319): Iniciando planificador a largo plazo con: RR
+[INFO] 19:08:16:444 KERNELPLANIFICADORES/(9470:9471): Iniciando planificador a largo plazo con: RR
+[INFO] 19:11:27:242 KERNELPLANIFICADORES/(9776:9777): Iniciando planificador a largo plazo con: RR
+[INFO] 19:25:45:412 KERNELPLANIFICADORES/(10195:10196): Iniciando planificador a largo plazo con: RR
+[INFO] 19:26:24:727 KERNELPLANIFICADORES/(10331:10332): Iniciando planificador a largo plazo con: RR
+[INFO] 19:33:03:803 KERNELPLANIFICADORES/(10731:10732): Iniciando planificador a largo plazo con: RR
+[INFO] 19:35:20:489 KERNELPLANIFICADORES/(10981:10982): Iniciando planificador a largo plazo con: RR
+[INFO] 19:35:28:168 KERNELPLANIFICADORES/(11059:11060): Iniciando planificador a largo plazo con: RR
+[INFO] 19:37:01:077 KERNELPLANIFICADORES/(11257:11258): Iniciando planificador a largo plazo con: RR
+[INFO] 19:53:44:445 KERNELPLANIFICADORES/(11752:11753): Iniciando planificador a largo plazo con: RR
+[INFO] 19:55:35:523 KERNELPLANIFICADORES/(12083:12084): Iniciando planificador a largo plazo con: RR
+[INFO] 19:56:21:272 KERNELPLANIFICADORES/(12328:12329): Iniciando planificador a largo plazo con: RR
+[INFO] 19:57:56:296 KERNELPLANIFICADORES/(12645:12646): Iniciando planificador a largo plazo con: RR
+[INFO] 19:59:10:555 KERNELPLANIFICADORES/(12826:12827): Iniciando planificador a largo plazo con: RR
+[INFO] 20:00:05:970 KERNELPLANIFICADORES/(13007:13008): Iniciando planificador a largo plazo con: RR
+[INFO] 20:01:30:724 KERNELPLANIFICADORES/(13184:13185): Iniciando planificador a largo plazo con: RR
+[INFO] 20:01:32:140 KERNELPLANIFICADORES/(13184:13185): Cantidad de procesos en READY: 1
+[INFO] 20:01:32:915 KERNELPLANIFICADORES/(13184:13185): Cantidad de procesos en READY: 2
+[INFO] 20:01:33:173 KERNELPLANIFICADORES/(13184:13185): Cantidad de procesos en READY: 3
+[INFO] 20:01:33:388 KERNELPLANIFICADORES/(13184:13185): Cantidad de procesos en READY: 4
+[INFO] 20:01:33:620 KERNELPLANIFICADORES/(13184:13185): Cantidad de procesos en READY: 5
+[INFO] 20:01:33:838 KERNELPLANIFICADORES/(13184:13185): Cantidad de procesos en READY: 6
+[INFO] 20:01:34:038 KERNELPLANIFICADORES/(13184:13185): Cantidad de procesos en READY: 7
+[INFO] 20:01:34:270 KERNELPLANIFICADORES/(13184:13185): Cantidad de procesos en READY: 8
+[INFO] 20:01:34:431 KERNELPLANIFICADORES/(13184:13185): Cantidad de procesos en READY: 9
+[INFO] 20:02:01:223 KERNELPLANIFICADORES/(13343:13344): Iniciando planificador a largo plazo con: RR
+[INFO] 20:02:03:074 KERNELPLANIFICADORES/(13343:13344): Cantidad de procesos en READY: 902975744
+[INFO] 20:02:03:923 KERNELPLANIFICADORES/(13343:13344): Cantidad de procesos en READY: 902975744
+[INFO] 20:02:04:479 KERNELPLANIFICADORES/(13343:13344): Cantidad de procesos en READY: 902975744
+[INFO] 20:03:12:299 KERNELPLANIFICADORES/(13482:13483): Iniciando planificador a largo plazo con: RR
+[INFO] 20:03:14:133 KERNELPLANIFICADORES/(13482:13483): Cantidad de procesos en READY: 1
+[INFO] 20:03:15:183 KERNELPLANIFICADORES/(13482:13483): Cantidad de procesos en READY: 2
+[INFO] 20:03:15:731 KERNELPLANIFICADORES/(13482:13483): Cantidad de procesos en READY: 3
+[INFO] 20:03:17:135 KERNELPLANIFICADORES/(13482:13483): Cantidad de procesos en READY: 4
+[INFO] 20:03:17:763 KERNELPLANIFICADORES/(13482:13483): Cantidad de procesos en READY: 5
+[INFO] 20:03:18:401 KERNELPLANIFICADORES/(13482:13483): Cantidad de procesos en READY: 6
+[INFO] 20:03:18:924 KERNELPLANIFICADORES/(13482:13483): Cantidad de procesos en READY: 7
+[INFO] 20:03:44:381 KERNELPLANIFICADORES/(13653:13654): Iniciando planificador a largo plazo con: RR
+[INFO] 20:03:47:488 KERNELPLANIFICADORES/(13653:13654): Cantidad de procesos en READY: 1
+[INFO] 20:03:47:488 KERNELPLANIFICADORES/(13653:13654): Cantidad de procesos en READY: 1
+[INFO] 20:03:48:292 KERNELPLANIFICADORES/(13653:13654): Cantidad de procesos en READY: 2
+[INFO] 20:03:48:292 KERNELPLANIFICADORES/(13653:13654): Cantidad de procesos en READY: 2
+[INFO] 20:03:49:208 KERNELPLANIFICADORES/(13653:13654): Cantidad de procesos en READY: 3
+[INFO] 20:03:49:208 KERNELPLANIFICADORES/(13653:13654): Cantidad de procesos en READY: 3
+[INFO] 20:03:50:188 KERNELPLANIFICADORES/(13653:13654): Cantidad de procesos en READY: 4
+[INFO] 20:03:50:188 KERNELPLANIFICADORES/(13653:13654): Cantidad de procesos en READY: 4
+[INFO] 20:03:50:601 KERNELPLANIFICADORES/(13653:13654): Cantidad de procesos en READY: 5
+[INFO] 20:03:50:601 KERNELPLANIFICADORES/(13653:13654): Cantidad de procesos en READY: 5
+[INFO] 20:03:50:936 KERNELPLANIFICADORES/(13653:13654): Cantidad de procesos en READY: 6
+[INFO] 20:03:50:936 KERNELPLANIFICADORES/(13653:13654): Cantidad de procesos en READY: 6
+[INFO] 20:03:51:237 KERNELPLANIFICADORES/(13653:13654): Cantidad de procesos en READY: 7
+[INFO] 20:03:51:237 KERNELPLANIFICADORES/(13653:13654): Cantidad de procesos en READY: 7
+[INFO] 20:03:51:595 KERNELPLANIFICADORES/(13653:13654): Cantidad de procesos en READY: 8
+[INFO] 20:03:51:595 KERNELPLANIFICADORES/(13653:13654): Cantidad de procesos en READY: 8
+[INFO] 20:04:42:389 KERNELPLANIFICADORES/(13829:13830): Iniciando planificador a largo plazo con: RR
+[INFO] 20:04:47:459 KERNELPLANIFICADORES/(13829:13830): Cantidad de procesos en READY: 1
+[INFO] 20:04:47:459 KERNELPLANIFICADORES/(13829:13830): Cantidad grado de multiprogramacion: -559243008
+[INFO] 20:04:47:459 KERNELPLANIFICADORES/(13829:13830): Cantidad de procesos en memoria: 1
+[INFO] 20:04:49:155 KERNELPLANIFICADORES/(13829:13830): Cantidad de procesos en READY: 2
+[INFO] 20:04:49:155 KERNELPLANIFICADORES/(13829:13830): Cantidad grado de multiprogramacion: -559243008
+[INFO] 20:04:49:155 KERNELPLANIFICADORES/(13829:13830): Cantidad de procesos en memoria: 2
+[INFO] 20:05:19:373 KERNELPLANIFICADORES/(13958:13959): Iniciando planificador a largo plazo con: RR
+[INFO] 20:05:20:736 KERNELPLANIFICADORES/(13958:13959): Cantidad de procesos en READY: 1
+[INFO] 20:05:20:736 KERNELPLANIFICADORES/(13958:13959): Cantidad grado de multiprogramacion: 4
+[INFO] 20:05:20:736 KERNELPLANIFICADORES/(13958:13959): Cantidad de procesos en memoria: 1
+[INFO] 20:05:21:833 KERNELPLANIFICADORES/(13958:13959): Cantidad de procesos en READY: 2
+[INFO] 20:05:21:833 KERNELPLANIFICADORES/(13958:13959): Cantidad grado de multiprogramacion: 4
+[INFO] 20:05:21:833 KERNELPLANIFICADORES/(13958:13959): Cantidad de procesos en memoria: 2
+[INFO] 20:05:22:177 KERNELPLANIFICADORES/(13958:13959): Cantidad de procesos en READY: 3
+[INFO] 20:05:22:177 KERNELPLANIFICADORES/(13958:13959): Cantidad grado de multiprogramacion: 4
+[INFO] 20:05:22:177 KERNELPLANIFICADORES/(13958:13959): Cantidad de procesos en memoria: 3
+[INFO] 20:05:22:510 KERNELPLANIFICADORES/(13958:13959): Cantidad de procesos en READY: 4
+[INFO] 20:05:22:510 KERNELPLANIFICADORES/(13958:13959): Cantidad grado de multiprogramacion: 4
+[INFO] 20:05:22:510 KERNELPLANIFICADORES/(13958:13959): Cantidad de procesos en memoria: 4
+[INFO] 20:06:05:028 KERNELPLANIFICADORES/(14170:14171): Iniciando planificador a largo plazo con: RR
+[INFO] 20:06:06:998 KERNELPLANIFICADORES/(14170:14171): Cantidad de procesos en READY: 1
+[INFO] 20:06:06:998 KERNELPLANIFICADORES/(14170:14171): Cantidad grado de multiprogramacion: 4
+[INFO] 20:06:06:998 KERNELPLANIFICADORES/(14170:14171): Cantidad de procesos en memoria: 1
+[INFO] 20:06:08:018 KERNELPLANIFICADORES/(14170:14171): Cantidad de procesos en READY: 2
+[INFO] 20:06:08:018 KERNELPLANIFICADORES/(14170:14171): Cantidad grado de multiprogramacion: 4
+[INFO] 20:06:08:018 KERNELPLANIFICADORES/(14170:14171): Cantidad de procesos en memoria: 2
+[INFO] 20:06:08:403 KERNELPLANIFICADORES/(14170:14171): Cantidad de procesos en READY: 3
+[INFO] 20:06:08:403 KERNELPLANIFICADORES/(14170:14171): Cantidad grado de multiprogramacion: 4
+[INFO] 20:06:08:403 KERNELPLANIFICADORES/(14170:14171): Cantidad de procesos en memoria: 3
+[INFO] 20:06:08:967 KERNELPLANIFICADORES/(14170:14171): Cantidad de procesos en READY: 4
+[INFO] 20:06:08:967 KERNELPLANIFICADORES/(14170:14171): Cantidad grado de multiprogramacion: 4
+[INFO] 20:06:08:967 KERNELPLANIFICADORES/(14170:14171): Cantidad de procesos en memoria: 4
+[INFO] 20:37:39:322 KERNELPLANIFICADORES/(15317:15318): Iniciando planificador a largo plazo con: RR
+[INFO] 20:37:41:520 KERNELPLANIFICADORES/(15317:15318): Cantidad de procesos en READY: 1
+[INFO] 20:37:41:520 KERNELPLANIFICADORES/(15317:15318): Cantidad grado de multiprogramacion: 4
+[INFO] 20:37:41:520 KERNELPLANIFICADORES/(15317:15318): Cantidad de procesos en memoria: 1
+[INFO] 20:46:02:577 KERNELPLANIFICADORES/(15727:15728): Iniciando planificador a largo plazo con: RR
+[INFO] 20:46:08:140 KERNELPLANIFICADORES/(15727:15728): Cantidad de procesos en READY: 1
+[INFO] 20:46:08:140 KERNELPLANIFICADORES/(15727:15728): Cantidad grado de multiprogramacion: 4
+[INFO] 20:46:08:140 KERNELPLANIFICADORES/(15727:15728): Cantidad de procesos en memoria: 1
+[INFO] 20:46:08:652 KERNELPLANIFICADORES/(15727:15728): Cantidad de procesos en READY: 2
+[INFO] 20:46:08:652 KERNELPLANIFICADORES/(15727:15728): Cantidad grado de multiprogramacion: 4
+[INFO] 20:46:08:652 KERNELPLANIFICADORES/(15727:15728): Cantidad de procesos en memoria: 2
+[INFO] 20:46:08:990 KERNELPLANIFICADORES/(15727:15728): Cantidad de procesos en READY: 3
+[INFO] 20:46:08:990 KERNELPLANIFICADORES/(15727:15728): Cantidad grado de multiprogramacion: 4
+[INFO] 20:46:08:990 KERNELPLANIFICADORES/(15727:15728): Cantidad de procesos en memoria: 3
+[INFO] 20:46:09:194 KERNELPLANIFICADORES/(15727:15728): Cantidad de procesos en READY: 4
+[INFO] 20:46:09:194 KERNELPLANIFICADORES/(15727:15728): Cantidad grado de multiprogramacion: 4
+[INFO] 20:46:09:194 KERNELPLANIFICADORES/(15727:15728): Cantidad de procesos en memoria: 4
+[INFO] 23:55:00:163 KERNELPLANIFICADORES/(16996:16997): Iniciando planificador a largo plazo con: RR
+[INFO] 23:55:11:921 KERNELPLANIFICADORES/(17087:17088): Iniciando planificador a largo plazo con: RR
+[INFO] 23:55:13:523 KERNELPLANIFICADORES/(17087:17088): Cantidad de procesos en READY: 1
+[INFO] 23:55:13:523 KERNELPLANIFICADORES/(17087:17088): Cantidad grado de multiprogramacion: 4
+[INFO] 23:55:13:523 KERNELPLANIFICADORES/(17087:17088): Cantidad de procesos en memoria: 1
+[INFO] 23:55:14:464 KERNELPLANIFICADORES/(17087:17088): Cantidad de procesos en READY: 2
+[INFO] 23:55:14:464 KERNELPLANIFICADORES/(17087:17088): Cantidad grado de multiprogramacion: 4
+[INFO] 23:55:14:464 KERNELPLANIFICADORES/(17087:17088): Cantidad de procesos en memoria: 2
+[INFO] 23:55:14:830 KERNELPLANIFICADORES/(17087:17088): Cantidad de procesos en READY: 3
+[INFO] 23:55:14:830 KERNELPLANIFICADORES/(17087:17088): Cantidad grado de multiprogramacion: 4
+[INFO] 23:55:14:830 KERNELPLANIFICADORES/(17087:17088): Cantidad de procesos en memoria: 3
+[INFO] 23:55:15:147 KERNELPLANIFICADORES/(17087:17088): Cantidad de procesos en READY: 4
+[INFO] 23:55:15:147 KERNELPLANIFICADORES/(17087:17088): Cantidad grado de multiprogramacion: 4
+[INFO] 23:55:15:147 KERNELPLANIFICADORES/(17087:17088): Cantidad de procesos en memoria: 4
+[INFO] 23:57:57:184 KERNELPLANIFICADORES/(17498:17499): Iniciando planificador a largo plazo con: RR
+[INFO] 23:57:59:317 KERNELPLANIFICADORES/(17498:17499): Cantidad de procesos en READY: 1
+[INFO] 23:57:59:317 KERNELPLANIFICADORES/(17498:17499): Cantidad grado de multiprogramacion: 4
+[INFO] 23:57:59:317 KERNELPLANIFICADORES/(17498:17499): Cantidad de procesos en memoria: 1
+[INFO] 23:57:59:317 KERNELPLANIFICADORES/(17498:17499): Cantidad de procesos en READY: 0
+[INFO] 23:57:59:317 KERNELPLANIFICADORES/(17498:17499): Cantidad de procesos en memoria: 1
+[INFO] 23:58:04:718 KERNELPLANIFICADORES/(17498:17499): Cantidad de procesos en READY: 1
+[INFO] 23:58:04:718 KERNELPLANIFICADORES/(17498:17499): Cantidad grado de multiprogramacion: 4
+[INFO] 23:58:04:718 KERNELPLANIFICADORES/(17498:17499): Cantidad de procesos en memoria: 2
+[INFO] 23:58:04:718 KERNELPLANIFICADORES/(17498:17499): Cantidad de procesos en READY: 0
+[INFO] 23:58:04:718 KERNELPLANIFICADORES/(17498:17499): Cantidad de procesos en memoria: 2
+[INFO] 23:58:05:403 KERNELPLANIFICADORES/(17498:17499): Cantidad de procesos en READY: 1
+[INFO] 23:58:05:403 KERNELPLANIFICADORES/(17498:17499): Cantidad grado de multiprogramacion: 4
+[INFO] 23:58:05:403 KERNELPLANIFICADORES/(17498:17499): Cantidad de procesos en memoria: 3
+[INFO] 23:58:05:403 KERNELPLANIFICADORES/(17498:17499): Cantidad de procesos en READY: 0
+[INFO] 23:58:05:403 KERNELPLANIFICADORES/(17498:17499): Cantidad de procesos en memoria: 3
+[INFO] 23:58:05:950 KERNELPLANIFICADORES/(17498:17499): Cantidad de procesos en READY: 1
+[INFO] 23:58:05:950 KERNELPLANIFICADORES/(17498:17499): Cantidad grado de multiprogramacion: 4
+[INFO] 23:58:05:950 KERNELPLANIFICADORES/(17498:17499): Cantidad de procesos en memoria: 4
+[INFO] 23:58:05:950 KERNELPLANIFICADORES/(17498:17499): Cantidad de procesos en READY: 0
+[INFO] 23:58:05:950 KERNELPLANIFICADORES/(17498:17499): Cantidad de procesos en memoria: 4
+[INFO] 23:59:28:216 KERNELPLANIFICADORES/(17836:17837): Iniciando planificador a largo plazo con: RR
+[INFO] 23:59:29:905 KERNELPLANIFICADORES/(17836:17837): Cantidad de procesos en READY: 1
+[INFO] 23:59:29:905 KERNELPLANIFICADORES/(17836:17837): Cantidad grado de multiprogramacion: 4
+[INFO] 23:59:29:905 KERNELPLANIFICADORES/(17836:17837): Cantidad de procesos en memoria: 1
+[INFO] 23:59:29:905 KERNELPLANIFICADORES/(17836:17837): ID: 0
+[INFO] 23:59:29:905 KERNELPLANIFICADORES/(17836:17837): Cantidad de procesos en memoria: 1
+[INFO] 23:59:32:702 KERNELPLANIFICADORES/(17836:17837): Cantidad de procesos en READY: 1
+[INFO] 23:59:32:702 KERNELPLANIFICADORES/(17836:17837): Cantidad grado de multiprogramacion: 4
+[INFO] 23:59:32:702 KERNELPLANIFICADORES/(17836:17837): Cantidad de procesos en memoria: 2
+[INFO] 23:59:32:702 KERNELPLANIFICADORES/(17836:17837): ID: 1
+[INFO] 23:59:32:702 KERNELPLANIFICADORES/(17836:17837): Cantidad de procesos en memoria: 2
+[INFO] 23:59:33:205 KERNELPLANIFICADORES/(17836:17837): Cantidad de procesos en READY: 1
+[INFO] 23:59:33:205 KERNELPLANIFICADORES/(17836:17837): Cantidad grado de multiprogramacion: 4
+[INFO] 23:59:33:205 KERNELPLANIFICADORES/(17836:17837): Cantidad de procesos en memoria: 3
+[INFO] 23:59:33:205 KERNELPLANIFICADORES/(17836:17837): ID: 2
+[INFO] 23:59:33:205 KERNELPLANIFICADORES/(17836:17837): Cantidad de procesos en memoria: 3
+[INFO] 23:59:33:535 KERNELPLANIFICADORES/(17836:17837): Cantidad de procesos en READY: 1
+[INFO] 23:59:33:535 KERNELPLANIFICADORES/(17836:17837): Cantidad grado de multiprogramacion: 4
+[INFO] 23:59:33:535 KERNELPLANIFICADORES/(17836:17837): Cantidad de procesos en memoria: 4
+[INFO] 23:59:33:535 KERNELPLANIFICADORES/(17836:17837): ID: 3
+[INFO] 23:59:33:535 KERNELPLANIFICADORES/(17836:17837): Cantidad de procesos en memoria: 4
+[INFO] 00:00:31:455 KERNELPLANIFICADORES/(18153:18154): Iniciando planificador a largo plazo con: RR
+[INFO] 00:00:35:771 KERNELPLANIFICADORES/(18187:18188): Iniciando planificador a largo plazo con: RR
+[INFO] 00:00:37:610 KERNELPLANIFICADORES/(18187:18188): Cantidad de procesos en READY: 1
+[INFO] 00:00:37:610 KERNELPLANIFICADORES/(18187:18188): Cantidad grado de multiprogramacion: 4
+[INFO] 00:00:37:610 KERNELPLANIFICADORES/(18187:18188): Cantidad de procesos en memoria: 1
+[INFO] 00:00:37:610 KERNELPLANIFICADORES/(18187:18188): ID: 0
+[INFO] 00:00:37:610 KERNELPLANIFICADORES/(18187:18188): Cantidad de procesos en memoria: 0
+[INFO] 00:00:38:374 KERNELPLANIFICADORES/(18187:18188): Cantidad de procesos en READY: 1
+[INFO] 00:00:38:374 KERNELPLANIFICADORES/(18187:18188): Cantidad grado de multiprogramacion: 4
+[INFO] 00:00:38:374 KERNELPLANIFICADORES/(18187:18188): Cantidad de procesos en memoria: 1
+[INFO] 00:00:38:374 KERNELPLANIFICADORES/(18187:18188): ID: 1
+[INFO] 00:00:38:374 KERNELPLANIFICADORES/(18187:18188): Cantidad de procesos en memoria: 0
+[INFO] 00:00:39:063 KERNELPLANIFICADORES/(18187:18188): Cantidad de procesos en READY: 1
+[INFO] 00:00:39:063 KERNELPLANIFICADORES/(18187:18188): Cantidad grado de multiprogramacion: 4
+[INFO] 00:00:39:063 KERNELPLANIFICADORES/(18187:18188): Cantidad de procesos en memoria: 1
+[INFO] 00:00:39:063 KERNELPLANIFICADORES/(18187:18188): ID: 2
+[INFO] 00:00:39:063 KERNELPLANIFICADORES/(18187:18188): Cantidad de procesos en memoria: 0
+[INFO] 00:00:39:648 KERNELPLANIFICADORES/(18187:18188): Cantidad de procesos en READY: 1
+[INFO] 00:00:39:648 KERNELPLANIFICADORES/(18187:18188): Cantidad grado de multiprogramacion: 4
+[INFO] 00:00:39:648 KERNELPLANIFICADORES/(18187:18188): Cantidad de procesos en memoria: 1
+[INFO] 00:00:39:648 KERNELPLANIFICADORES/(18187:18188): ID: 3
+[INFO] 00:00:39:648 KERNELPLANIFICADORES/(18187:18188): Cantidad de procesos en memoria: 0
+[INFO] 00:00:40:260 KERNELPLANIFICADORES/(18187:18188): Cantidad de procesos en READY: 1
+[INFO] 00:00:40:260 KERNELPLANIFICADORES/(18187:18188): Cantidad grado de multiprogramacion: 4
+[INFO] 00:00:40:260 KERNELPLANIFICADORES/(18187:18188): Cantidad de procesos en memoria: 1
+[INFO] 00:00:40:260 KERNELPLANIFICADORES/(18187:18188): ID: 4
+[INFO] 00:00:40:260 KERNELPLANIFICADORES/(18187:18188): Cantidad de procesos en memoria: 0
+[INFO] 00:00:40:768 KERNELPLANIFICADORES/(18187:18188): Cantidad de procesos en READY: 1
+[INFO] 00:00:40:768 KERNELPLANIFICADORES/(18187:18188): Cantidad grado de multiprogramacion: 4
+[INFO] 00:00:40:768 KERNELPLANIFICADORES/(18187:18188): Cantidad de procesos en memoria: 1
+[INFO] 00:00:40:768 KERNELPLANIFICADORES/(18187:18188): ID: 5
+[INFO] 00:00:40:768 KERNELPLANIFICADORES/(18187:18188): Cantidad de procesos en memoria: 0
+[INFO] 00:00:41:313 KERNELPLANIFICADORES/(18187:18188): Cantidad de procesos en READY: 1
+[INFO] 00:00:41:313 KERNELPLANIFICADORES/(18187:18188): Cantidad grado de multiprogramacion: 4
+[INFO] 00:00:41:313 KERNELPLANIFICADORES/(18187:18188): Cantidad de procesos en memoria: 1
+[INFO] 00:00:41:313 KERNELPLANIFICADORES/(18187:18188): ID: 6
+[INFO] 00:00:41:313 KERNELPLANIFICADORES/(18187:18188): Cantidad de procesos en memoria: 0
+[INFO] 00:00:41:861 KERNELPLANIFICADORES/(18187:18188): Cantidad de procesos en READY: 1
+[INFO] 00:00:41:861 KERNELPLANIFICADORES/(18187:18188): Cantidad grado de multiprogramacion: 4
+[INFO] 00:00:41:861 KERNELPLANIFICADORES/(18187:18188): Cantidad de procesos en memoria: 1
+[INFO] 00:00:41:861 KERNELPLANIFICADORES/(18187:18188): ID: 7
+[INFO] 00:00:41:861 KERNELPLANIFICADORES/(18187:18188): Cantidad de procesos en memoria: 0
+[INFO] 00:01:00:927 KERNELPLANIFICADORES/(18323:18324): Iniciando planificador a largo plazo con: RR
+[INFO] 00:01:03:470 KERNELPLANIFICADORES/(18323:18324): Cantidad de procesos en READY: 1
+[INFO] 00:01:03:470 KERNELPLANIFICADORES/(18323:18324): Cantidad grado de multiprogramacion: 4
+[INFO] 00:01:03:470 KERNELPLANIFICADORES/(18323:18324): Cantidad de procesos en memoria: 1
+[INFO] 00:01:03:991 KERNELPLANIFICADORES/(18323:18324): Cantidad de procesos en READY: 2
+[INFO] 00:01:03:991 KERNELPLANIFICADORES/(18323:18324): Cantidad grado de multiprogramacion: 4
+[INFO] 00:01:03:991 KERNELPLANIFICADORES/(18323:18324): Cantidad de procesos en memoria: 2
+[INFO] 00:01:04:639 KERNELPLANIFICADORES/(18323:18324): Cantidad de procesos en READY: 3
+[INFO] 00:01:04:639 KERNELPLANIFICADORES/(18323:18324): Cantidad grado de multiprogramacion: 4
+[INFO] 00:01:04:639 KERNELPLANIFICADORES/(18323:18324): Cantidad de procesos en memoria: 3
+[INFO] 00:01:04:962 KERNELPLANIFICADORES/(18323:18324): Cantidad de procesos en READY: 4
+[INFO] 00:01:04:962 KERNELPLANIFICADORES/(18323:18324): Cantidad grado de multiprogramacion: 4
+[INFO] 00:01:04:962 KERNELPLANIFICADORES/(18323:18324): Cantidad de procesos en memoria: 4
+[INFO] 00:05:55:670 KERNELPLANIFICADORES/(18816:18817): Iniciando planificador a largo plazo con: RR
+[INFO] 00:05:57:546 KERNELPLANIFICADORES/(18816:18817): Salido de colaNEW ID: 0
+[INFO] 00:05:57:546 KERNELPLANIFICADORES/(18816:18817): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 00:05:57:546 KERNELPLANIFICADORES/(18816:18817): Agregado a colaREADY ID: 0
+[INFO] 00:05:57:546 KERNELPLANIFICADORES/(18816:18817): Cantidad de procesos en READY: 1
+[INFO] 00:05:57:546 KERNELPLANIFICADORES/(18816:18817): Cantidad grado de multiprogramacion: 4
+[INFO] 00:05:57:546 KERNELPLANIFICADORES/(18816:18817): Cantidad de procesos en memoria: 1
+[INFO] 19:39:09:763 KERNELPLANIFICADORES/(2280:2281): Iniciando planificador a largo plazo con: RR
+[INFO] 19:39:22:657 KERNELPLANIFICADORES/(2280:2281): Salido de colaNEW ID: 0
+[INFO] 19:39:22:657 KERNELPLANIFICADORES/(2280:2281): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 19:39:22:657 KERNELPLANIFICADORES/(2280:2281): Agregado a colaREADY ID: 0
+[INFO] 19:39:22:657 KERNELPLANIFICADORES/(2280:2281): Cantidad de procesos en READY: 1
+[INFO] 19:39:22:657 KERNELPLANIFICADORES/(2280:2281): Cantidad grado de multiprogramacion: 4
+[INFO] 19:39:22:657 KERNELPLANIFICADORES/(2280:2281): Cantidad de procesos en memoria: 1
+[INFO] 19:39:23:969 KERNELPLANIFICADORES/(2280:2281): Salido de colaNEW ID: 1
+[INFO] 19:39:23:969 KERNELPLANIFICADORES/(2280:2281): PID: <1> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 19:39:23:969 KERNELPLANIFICADORES/(2280:2281): Agregado a colaREADY ID: 1
+[INFO] 19:39:23:969 KERNELPLANIFICADORES/(2280:2281): Cantidad de procesos en READY: 2
+[INFO] 19:39:23:969 KERNELPLANIFICADORES/(2280:2281): Cantidad grado de multiprogramacion: 4
+[INFO] 19:39:23:969 KERNELPLANIFICADORES/(2280:2281): Cantidad de procesos en memoria: 2
+[INFO] 19:39:24:595 KERNELPLANIFICADORES/(2280:2281): Salido de colaNEW ID: 2
+[INFO] 19:39:24:595 KERNELPLANIFICADORES/(2280:2281): PID: <2> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 19:39:24:595 KERNELPLANIFICADORES/(2280:2281): Agregado a colaREADY ID: 2
+[INFO] 19:39:24:595 KERNELPLANIFICADORES/(2280:2281): Cantidad de procesos en READY: 3
+[INFO] 19:39:24:595 KERNELPLANIFICADORES/(2280:2281): Cantidad grado de multiprogramacion: 4
+[INFO] 19:39:24:595 KERNELPLANIFICADORES/(2280:2281): Cantidad de procesos en memoria: 3
+[INFO] 19:39:24:995 KERNELPLANIFICADORES/(2280:2281): Salido de colaNEW ID: 3
+[INFO] 19:39:24:995 KERNELPLANIFICADORES/(2280:2281): PID: <3> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 19:39:24:995 KERNELPLANIFICADORES/(2280:2281): Agregado a colaREADY ID: 3
+[INFO] 19:39:24:995 KERNELPLANIFICADORES/(2280:2281): Cantidad de procesos en READY: 4
+[INFO] 19:39:24:995 KERNELPLANIFICADORES/(2280:2281): Cantidad grado de multiprogramacion: 4
+[INFO] 19:39:24:995 KERNELPLANIFICADORES/(2280:2281): Cantidad de procesos en memoria: 4
+[INFO] 20:27:52:007 KERNELPLANIFICADORES/(3412:3413): Iniciando planificador a largo plazo con: RR
+[INFO] 20:27:54:244 KERNELPLANIFICADORES/(3412:3413): Salido de colaNEW ID: 0
+[INFO] 20:27:54:244 KERNELPLANIFICADORES/(3412:3413): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 20:27:54:244 KERNELPLANIFICADORES/(3412:3413): Agregado a colaREADY ID: 0
+[INFO] 20:27:54:244 KERNELPLANIFICADORES/(3412:3413): Cantidad de procesos en READY: 1
+[INFO] 20:27:54:244 KERNELPLANIFICADORES/(3412:3413): Cantidad grado de multiprogramacion: 4
+[INFO] 20:27:54:244 KERNELPLANIFICADORES/(3412:3413): Cantidad de procesos en memoria: 1
+[INFO] 20:27:55:020 KERNELPLANIFICADORES/(3412:3413): Salido de colaNEW ID: 1
+[INFO] 20:27:55:021 KERNELPLANIFICADORES/(3412:3413): PID: <1> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 20:27:55:021 KERNELPLANIFICADORES/(3412:3413): Agregado a colaREADY ID: 1
+[INFO] 20:27:55:021 KERNELPLANIFICADORES/(3412:3413): Cantidad de procesos en READY: 2
+[INFO] 20:27:55:021 KERNELPLANIFICADORES/(3412:3413): Cantidad grado de multiprogramacion: 4
+[INFO] 20:27:55:021 KERNELPLANIFICADORES/(3412:3413): Cantidad de procesos en memoria: 2
+[INFO] 20:27:55:400 KERNELPLANIFICADORES/(3412:3413): Salido de colaNEW ID: 2
+[INFO] 20:27:55:400 KERNELPLANIFICADORES/(3412:3413): PID: <2> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 20:27:55:400 KERNELPLANIFICADORES/(3412:3413): Agregado a colaREADY ID: 2
+[INFO] 20:27:55:400 KERNELPLANIFICADORES/(3412:3413): Cantidad de procesos en READY: 3
+[INFO] 20:27:55:400 KERNELPLANIFICADORES/(3412:3413): Cantidad grado de multiprogramacion: 4
+[INFO] 20:27:55:400 KERNELPLANIFICADORES/(3412:3413): Cantidad de procesos en memoria: 3
+[INFO] 20:27:55:874 KERNELPLANIFICADORES/(3412:3413): Salido de colaNEW ID: 3
+[INFO] 20:27:55:874 KERNELPLANIFICADORES/(3412:3413): PID: <3> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 20:27:55:874 KERNELPLANIFICADORES/(3412:3413): Agregado a colaREADY ID: 3
+[INFO] 20:27:55:874 KERNELPLANIFICADORES/(3412:3413): Cantidad de procesos en READY: 4
+[INFO] 20:27:55:874 KERNELPLANIFICADORES/(3412:3413): Cantidad grado de multiprogramacion: 4
+[INFO] 20:27:55:874 KERNELPLANIFICADORES/(3412:3413): Cantidad de procesos en memoria: 4
+[INFO] 20:30:14:263 KERNELPLANIFICADORES/(3636:3637): Iniciando planificador a largo plazo con: RR
+[INFO] 20:30:16:481 KERNELPLANIFICADORES/(3636:3637): Salido de colaNEW ID: 0
+[INFO] 20:30:16:482 KERNELPLANIFICADORES/(3636:3637): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 20:30:16:482 KERNELPLANIFICADORES/(3636:3637): Agregado a colaREADY ID: 0
+[INFO] 20:30:16:482 KERNELPLANIFICADORES/(3636:3637): Cantidad de procesos en READY: 1
+[INFO] 20:30:16:482 KERNELPLANIFICADORES/(3636:3637): Cantidad grado de multiprogramacion: 4
+[INFO] 20:30:16:482 KERNELPLANIFICADORES/(3636:3637): Cantidad de procesos en memoria: 1
+[INFO] 20:30:17:116 KERNELPLANIFICADORES/(3636:3637): Salido de colaNEW ID: 1
+[INFO] 20:30:17:116 KERNELPLANIFICADORES/(3636:3637): PID: <1> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 20:30:17:116 KERNELPLANIFICADORES/(3636:3637): Agregado a colaREADY ID: 1
+[INFO] 20:30:17:116 KERNELPLANIFICADORES/(3636:3637): Cantidad de procesos en READY: 2
+[INFO] 20:30:17:116 KERNELPLANIFICADORES/(3636:3637): Cantidad grado de multiprogramacion: 4
+[INFO] 20:30:17:116 KERNELPLANIFICADORES/(3636:3637): Cantidad de procesos en memoria: 2
+[INFO] 20:30:17:427 KERNELPLANIFICADORES/(3636:3637): Salido de colaNEW ID: 2
+[INFO] 20:30:17:427 KERNELPLANIFICADORES/(3636:3637): PID: <2> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 20:30:17:427 KERNELPLANIFICADORES/(3636:3637): Agregado a colaREADY ID: 2
+[INFO] 20:30:17:427 KERNELPLANIFICADORES/(3636:3637): Cantidad de procesos en READY: 3
+[INFO] 20:30:17:427 KERNELPLANIFICADORES/(3636:3637): Cantidad grado de multiprogramacion: 4
+[INFO] 20:30:17:427 KERNELPLANIFICADORES/(3636:3637): Cantidad de procesos en memoria: 3
+[INFO] 20:30:17:662 KERNELPLANIFICADORES/(3636:3637): Salido de colaNEW ID: 3
+[INFO] 20:30:17:662 KERNELPLANIFICADORES/(3636:3637): PID: <3> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 20:30:17:662 KERNELPLANIFICADORES/(3636:3637): Agregado a colaREADY ID: 3
+[INFO] 20:30:17:662 KERNELPLANIFICADORES/(3636:3637): Cantidad de procesos en READY: 4
+[INFO] 20:30:17:662 KERNELPLANIFICADORES/(3636:3637): Cantidad grado de multiprogramacion: 4
+[INFO] 20:30:17:662 KERNELPLANIFICADORES/(3636:3637): Cantidad de procesos en memoria: 4
+[INFO] 20:40:51:902 KERNELPLANIFICADORES/(4394:4395): Iniciando planificador a largo plazo con: RR
+[INFO] 20:40:53:898 KERNELPLANIFICADORES/(4394:4395): Salido de colaNEW ID: 0
+[INFO] 20:40:53:898 KERNELPLANIFICADORES/(4394:4395): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 20:40:53:898 KERNELPLANIFICADORES/(4394:4395): Agregado a colaREADY ID: 0
+[INFO] 20:40:53:898 KERNELPLANIFICADORES/(4394:4395): Cantidad de procesos en READY: 1
+[INFO] 20:40:53:898 KERNELPLANIFICADORES/(4394:4395): Cantidad grado de multiprogramacion: 4
+[INFO] 20:40:53:898 KERNELPLANIFICADORES/(4394:4395): Cantidad de procesos en memoria: 1
+[INFO] 20:40:54:763 KERNELPLANIFICADORES/(4394:4395): Salido de colaNEW ID: 1
+[INFO] 20:40:54:763 KERNELPLANIFICADORES/(4394:4395): PID: <1> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 20:40:54:763 KERNELPLANIFICADORES/(4394:4395): Agregado a colaREADY ID: 1
+[INFO] 20:40:54:763 KERNELPLANIFICADORES/(4394:4395): Cantidad de procesos en READY: 2
+[INFO] 20:40:54:763 KERNELPLANIFICADORES/(4394:4395): Cantidad grado de multiprogramacion: 4
+[INFO] 20:40:54:763 KERNELPLANIFICADORES/(4394:4395): Cantidad de procesos en memoria: 2
+[INFO] 20:40:55:265 KERNELPLANIFICADORES/(4394:4395): Salido de colaNEW ID: 2
+[INFO] 20:40:55:265 KERNELPLANIFICADORES/(4394:4395): PID: <2> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 20:40:55:265 KERNELPLANIFICADORES/(4394:4395): Agregado a colaREADY ID: 2
+[INFO] 20:40:55:265 KERNELPLANIFICADORES/(4394:4395): Cantidad de procesos en READY: 3
+[INFO] 20:40:55:265 KERNELPLANIFICADORES/(4394:4395): Cantidad grado de multiprogramacion: 4
+[INFO] 20:40:55:265 KERNELPLANIFICADORES/(4394:4395): Cantidad de procesos en memoria: 3
+[INFO] 20:40:56:306 KERNELPLANIFICADORES/(4394:4395): Salido de colaNEW ID: 3
+[INFO] 20:40:56:306 KERNELPLANIFICADORES/(4394:4395): PID: <3> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 20:40:56:306 KERNELPLANIFICADORES/(4394:4395): Agregado a colaREADY ID: 3
+[INFO] 20:40:56:306 KERNELPLANIFICADORES/(4394:4395): Cantidad de procesos en READY: 4
+[INFO] 20:40:56:306 KERNELPLANIFICADORES/(4394:4395): Cantidad grado de multiprogramacion: 4
+[INFO] 20:40:56:306 KERNELPLANIFICADORES/(4394:4395): Cantidad de procesos en memoria: 4
+[INFO] 03:14:25:155 KERNELPLANIFICADORES/(6250:6251): Iniciando planificador a largo plazo con: RR
+[INFO] 03:14:26:998 KERNELPLANIFICADORES/(6250:6251): Salido de colaNEW ID: 0
+[INFO] 03:14:26:998 KERNELPLANIFICADORES/(6250:6251): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 03:14:26:998 KERNELPLANIFICADORES/(6250:6251): Agregado a colaREADY ID: 0
+[INFO] 03:14:26:998 KERNELPLANIFICADORES/(6250:6251): Cantidad de procesos en READY: 1
+[INFO] 03:14:26:998 KERNELPLANIFICADORES/(6250:6251): Cantidad grado de multiprogramacion: 4
+[INFO] 03:14:26:998 KERNELPLANIFICADORES/(6250:6251): Cantidad de procesos en memoria: 1
+[INFO] 03:14:27:606 KERNELPLANIFICADORES/(6250:6251): Salido de colaNEW ID: 1
+[INFO] 03:14:27:606 KERNELPLANIFICADORES/(6250:6251): PID: <1> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 03:14:27:606 KERNELPLANIFICADORES/(6250:6251): Agregado a colaREADY ID: 1
+[INFO] 03:14:27:606 KERNELPLANIFICADORES/(6250:6251): Cantidad de procesos en READY: 2
+[INFO] 03:14:27:606 KERNELPLANIFICADORES/(6250:6251): Cantidad grado de multiprogramacion: 4
+[INFO] 03:14:27:606 KERNELPLANIFICADORES/(6250:6251): Cantidad de procesos en memoria: 2
+[INFO] 03:14:28:066 KERNELPLANIFICADORES/(6250:6251): Salido de colaNEW ID: 2
+[INFO] 03:14:28:066 KERNELPLANIFICADORES/(6250:6251): PID: <2> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 03:14:28:066 KERNELPLANIFICADORES/(6250:6251): Agregado a colaREADY ID: 2
+[INFO] 03:14:28:066 KERNELPLANIFICADORES/(6250:6251): Cantidad de procesos en READY: 3
+[INFO] 03:14:28:066 KERNELPLANIFICADORES/(6250:6251): Cantidad grado de multiprogramacion: 4
+[INFO] 03:14:28:066 KERNELPLANIFICADORES/(6250:6251): Cantidad de procesos en memoria: 3
+[INFO] 03:14:28:401 KERNELPLANIFICADORES/(6250:6251): Salido de colaNEW ID: 3
+[INFO] 03:14:28:401 KERNELPLANIFICADORES/(6250:6251): PID: <3> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 03:14:28:401 KERNELPLANIFICADORES/(6250:6251): Agregado a colaREADY ID: 3
+[INFO] 03:14:28:401 KERNELPLANIFICADORES/(6250:6251): Cantidad de procesos en READY: 4
+[INFO] 03:14:28:401 KERNELPLANIFICADORES/(6250:6251): Cantidad grado de multiprogramacion: 4
+[INFO] 03:14:28:401 KERNELPLANIFICADORES/(6250:6251): Cantidad de procesos en memoria: 4
+[INFO] 03:25:43:060 KERNELPLANIFICADORES/(7003:7004): Iniciando planificador a largo plazo con: RR
+[INFO] 03:25:46:808 KERNELPLANIFICADORES/(7003:7004): Salido de colaNEW ID: 0
+[INFO] 03:25:46:808 KERNELPLANIFICADORES/(7003:7004): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 03:25:46:808 KERNELPLANIFICADORES/(7003:7004): Agregado a colaREADY ID: 0
+[INFO] 03:25:46:808 KERNELPLANIFICADORES/(7003:7004): Cantidad de procesos en READY: 1
+[INFO] 03:25:46:808 KERNELPLANIFICADORES/(7003:7004): Cantidad grado de multiprogramacion: 4
+[INFO] 03:25:46:808 KERNELPLANIFICADORES/(7003:7004): Cantidad de procesos en memoria: 1
+[INFO] 03:25:49:595 KERNELPLANIFICADORES/(7003:7004): Salido de colaNEW ID: 1
+[INFO] 03:25:49:595 KERNELPLANIFICADORES/(7003:7004): PID: <1> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 03:25:49:595 KERNELPLANIFICADORES/(7003:7004): Agregado a colaREADY ID: 1
+[INFO] 03:25:49:595 KERNELPLANIFICADORES/(7003:7004): Cantidad de procesos en READY: 2
+[INFO] 03:25:49:595 KERNELPLANIFICADORES/(7003:7004): Cantidad grado de multiprogramacion: 4
+[INFO] 03:25:49:595 KERNELPLANIFICADORES/(7003:7004): Cantidad de procesos en memoria: 2
+[INFO] 03:25:49:913 KERNELPLANIFICADORES/(7003:7004): Salido de colaNEW ID: 2
+[INFO] 03:25:49:913 KERNELPLANIFICADORES/(7003:7004): PID: <2> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 03:25:49:913 KERNELPLANIFICADORES/(7003:7004): Agregado a colaREADY ID: 2
+[INFO] 03:25:49:913 KERNELPLANIFICADORES/(7003:7004): Cantidad de procesos en READY: 3
+[INFO] 03:25:49:913 KERNELPLANIFICADORES/(7003:7004): Cantidad grado de multiprogramacion: 4
+[INFO] 03:25:49:913 KERNELPLANIFICADORES/(7003:7004): Cantidad de procesos en memoria: 3
+[INFO] 03:25:50:134 KERNELPLANIFICADORES/(7003:7004): Salido de colaNEW ID: 3
+[INFO] 03:25:50:134 KERNELPLANIFICADORES/(7003:7004): PID: <3> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 03:25:50:134 KERNELPLANIFICADORES/(7003:7004): Agregado a colaREADY ID: 3
+[INFO] 03:25:50:134 KERNELPLANIFICADORES/(7003:7004): Cantidad de procesos en READY: 4
+[INFO] 03:25:50:134 KERNELPLANIFICADORES/(7003:7004): Cantidad grado de multiprogramacion: 4
+[INFO] 03:25:50:134 KERNELPLANIFICADORES/(7003:7004): Cantidad de procesos en memoria: 4
+[INFO] 03:36:03:526 KERNELPLANIFICADORES/(7678:7679): Iniciando planificador a largo plazo con: RR
+[INFO] 03:36:14:368 KERNELPLANIFICADORES/(7678:7679): Salido de colaNEW ID: 0
+[INFO] 03:36:14:368 KERNELPLANIFICADORES/(7678:7679): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 03:36:14:368 KERNELPLANIFICADORES/(7678:7679): Agregado a colaREADY ID: 0
+[INFO] 03:36:14:368 KERNELPLANIFICADORES/(7678:7679): Cantidad de procesos en READY: 1
+[INFO] 03:36:14:368 KERNELPLANIFICADORES/(7678:7679): Cantidad grado de multiprogramacion: 4
+[INFO] 03:36:14:368 KERNELPLANIFICADORES/(7678:7679): Cantidad de procesos en memoria: 1
+[INFO] 03:36:31:673 KERNELPLANIFICADORES/(7939:7940): Iniciando planificador a largo plazo con: RR
+[INFO] 03:36:32:605 KERNELPLANIFICADORES/(7939:7940): Salido de colaNEW ID: 0
+[INFO] 03:36:32:605 KERNELPLANIFICADORES/(7939:7940): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 03:36:32:605 KERNELPLANIFICADORES/(7939:7940): Agregado a colaREADY ID: 0
+[INFO] 03:36:32:605 KERNELPLANIFICADORES/(7939:7940): Cantidad de procesos en READY: 1
+[INFO] 03:36:32:605 KERNELPLANIFICADORES/(7939:7940): Cantidad grado de multiprogramacion: 4
+[INFO] 03:36:32:605 KERNELPLANIFICADORES/(7939:7940): Cantidad de procesos en memoria: 1
+[INFO] 03:36:33:334 KERNELPLANIFICADORES/(7939:7940): Salido de colaNEW ID: 1
+[INFO] 03:36:33:334 KERNELPLANIFICADORES/(7939:7940): PID: <1> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 03:36:33:334 KERNELPLANIFICADORES/(7939:7940): Agregado a colaREADY ID: 1
+[INFO] 03:36:33:334 KERNELPLANIFICADORES/(7939:7940): Cantidad de procesos en READY: 2
+[INFO] 03:36:33:334 KERNELPLANIFICADORES/(7939:7940): Cantidad grado de multiprogramacion: 4
+[INFO] 03:36:33:334 KERNELPLANIFICADORES/(7939:7940): Cantidad de procesos en memoria: 2
+[INFO] 03:36:33:774 KERNELPLANIFICADORES/(7939:7940): Salido de colaNEW ID: 2
+[INFO] 03:36:33:774 KERNELPLANIFICADORES/(7939:7940): PID: <2> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 03:36:33:774 KERNELPLANIFICADORES/(7939:7940): Agregado a colaREADY ID: 2
+[INFO] 03:36:33:774 KERNELPLANIFICADORES/(7939:7940): Cantidad de procesos en READY: 3
+[INFO] 03:36:33:774 KERNELPLANIFICADORES/(7939:7940): Cantidad grado de multiprogramacion: 4
+[INFO] 03:36:33:774 KERNELPLANIFICADORES/(7939:7940): Cantidad de procesos en memoria: 3
+[INFO] 03:36:34:251 KERNELPLANIFICADORES/(7939:7940): Salido de colaNEW ID: 3
+[INFO] 03:36:34:251 KERNELPLANIFICADORES/(7939:7940): PID: <3> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 03:36:34:251 KERNELPLANIFICADORES/(7939:7940): Agregado a colaREADY ID: 3
+[INFO] 03:36:34:251 KERNELPLANIFICADORES/(7939:7940): Cantidad de procesos en READY: 4
+[INFO] 03:36:34:251 KERNELPLANIFICADORES/(7939:7940): Cantidad grado de multiprogramacion: 4
+[INFO] 03:36:34:251 KERNELPLANIFICADORES/(7939:7940): Cantidad de procesos en memoria: 4
+[INFO] 03:46:12:531 KERNELPLANIFICADORES/(8514:8515): Iniciando planificador a largo plazo con: RR
+[INFO] 03:46:14:718 KERNELPLANIFICADORES/(8514:8515): Salido de colaNEW ID: 0
+[INFO] 03:46:14:718 KERNELPLANIFICADORES/(8514:8515): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 03:46:14:718 KERNELPLANIFICADORES/(8514:8515): Agregado a colaREADY ID: 0
+[INFO] 03:46:14:718 KERNELPLANIFICADORES/(8514:8515): Cantidad de procesos en READY: 1
+[INFO] 03:46:14:718 KERNELPLANIFICADORES/(8514:8515): Cantidad grado de multiprogramacion: 4
+[INFO] 03:46:14:718 KERNELPLANIFICADORES/(8514:8515): Cantidad de procesos en memoria: 1
+[INFO] 03:46:16:941 KERNELPLANIFICADORES/(8514:8515): Salido de colaNEW ID: 1
+[INFO] 03:46:16:941 KERNELPLANIFICADORES/(8514:8515): PID: <1> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 03:46:16:941 KERNELPLANIFICADORES/(8514:8515): Agregado a colaREADY ID: 1
+[INFO] 03:46:16:941 KERNELPLANIFICADORES/(8514:8515): Cantidad de procesos en READY: 2
+[INFO] 03:46:16:941 KERNELPLANIFICADORES/(8514:8515): Cantidad grado de multiprogramacion: 4
+[INFO] 03:46:16:941 KERNELPLANIFICADORES/(8514:8515): Cantidad de procesos en memoria: 2
+[INFO] 03:46:17:237 KERNELPLANIFICADORES/(8514:8515): Salido de colaNEW ID: 2
+[INFO] 03:46:17:237 KERNELPLANIFICADORES/(8514:8515): PID: <2> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 03:46:17:237 KERNELPLANIFICADORES/(8514:8515): Agregado a colaREADY ID: 2
+[INFO] 03:46:17:237 KERNELPLANIFICADORES/(8514:8515): Cantidad de procesos en READY: 3
+[INFO] 03:46:17:237 KERNELPLANIFICADORES/(8514:8515): Cantidad grado de multiprogramacion: 4
+[INFO] 03:46:17:237 KERNELPLANIFICADORES/(8514:8515): Cantidad de procesos en memoria: 3
+[INFO] 03:46:17:413 KERNELPLANIFICADORES/(8514:8515): Salido de colaNEW ID: 3
+[INFO] 03:46:17:413 KERNELPLANIFICADORES/(8514:8515): PID: <3> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 03:46:17:413 KERNELPLANIFICADORES/(8514:8515): Agregado a colaREADY ID: 3
+[INFO] 03:46:17:413 KERNELPLANIFICADORES/(8514:8515): Cantidad de procesos en READY: 4
+[INFO] 03:46:17:413 KERNELPLANIFICADORES/(8514:8515): Cantidad grado de multiprogramacion: 4
+[INFO] 03:46:17:413 KERNELPLANIFICADORES/(8514:8515): Cantidad de procesos en memoria: 4
+[INFO] 03:46:40:517 KERNELPLANIFICADORES/(8687:8688): Iniciando planificador a largo plazo con: RR
+[INFO] 03:46:42:376 KERNELPLANIFICADORES/(8687:8688): Salido de colaNEW ID: 0
+[INFO] 03:46:42:376 KERNELPLANIFICADORES/(8687:8688): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 03:46:42:376 KERNELPLANIFICADORES/(8687:8688): Agregado a colaREADY ID: 0
+[INFO] 03:46:42:376 KERNELPLANIFICADORES/(8687:8688): Cantidad de procesos en READY: 1
+[INFO] 03:46:42:376 KERNELPLANIFICADORES/(8687:8688): Cantidad grado de multiprogramacion: 4
+[INFO] 03:46:42:376 KERNELPLANIFICADORES/(8687:8688): Cantidad de procesos en memoria: 1
+[INFO] 03:46:43:088 KERNELPLANIFICADORES/(8687:8688): Salido de colaNEW ID: 1
+[INFO] 03:46:43:088 KERNELPLANIFICADORES/(8687:8688): PID: <1> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 03:46:43:088 KERNELPLANIFICADORES/(8687:8688): Agregado a colaREADY ID: 1
+[INFO] 03:46:43:088 KERNELPLANIFICADORES/(8687:8688): Cantidad de procesos en READY: 2
+[INFO] 03:46:43:088 KERNELPLANIFICADORES/(8687:8688): Cantidad grado de multiprogramacion: 4
+[INFO] 03:46:43:088 KERNELPLANIFICADORES/(8687:8688): Cantidad de procesos en memoria: 2
+[INFO] 03:46:44:336 KERNELPLANIFICADORES/(8687:8688): Salido de colaNEW ID: 2
+[INFO] 03:46:44:336 KERNELPLANIFICADORES/(8687:8688): PID: <2> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 03:46:44:336 KERNELPLANIFICADORES/(8687:8688): Agregado a colaREADY ID: 2
+[INFO] 03:46:44:336 KERNELPLANIFICADORES/(8687:8688): Cantidad de procesos en READY: 3
+[INFO] 03:46:44:336 KERNELPLANIFICADORES/(8687:8688): Cantidad grado de multiprogramacion: 4
+[INFO] 03:46:44:336 KERNELPLANIFICADORES/(8687:8688): Cantidad de procesos en memoria: 3
+[INFO] 03:46:45:131 KERNELPLANIFICADORES/(8687:8688): Salido de colaNEW ID: 3
+[INFO] 03:46:45:131 KERNELPLANIFICADORES/(8687:8688): PID: <3> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 03:46:45:131 KERNELPLANIFICADORES/(8687:8688): Agregado a colaREADY ID: 3
+[INFO] 03:46:45:131 KERNELPLANIFICADORES/(8687:8688): Cantidad de procesos en READY: 4
+[INFO] 03:46:45:131 KERNELPLANIFICADORES/(8687:8688): Cantidad grado de multiprogramacion: 4
+[INFO] 03:46:45:131 KERNELPLANIFICADORES/(8687:8688): Cantidad de procesos en memoria: 4
+[INFO] 03:48:13:471 KERNELPLANIFICADORES/(8839:8840): Iniciando planificador a largo plazo con: RR
+[INFO] 03:48:15:707 KERNELPLANIFICADORES/(8839:8840): Salido de colaNEW ID: 0
+[INFO] 03:48:15:708 KERNELPLANIFICADORES/(8839:8840): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 03:48:15:708 KERNELPLANIFICADORES/(8839:8840): Agregado a colaREADY ID: 0
+[INFO] 03:48:15:708 KERNELPLANIFICADORES/(8839:8840): Cantidad de procesos en READY: 1
+[INFO] 03:48:15:708 KERNELPLANIFICADORES/(8839:8840): Cantidad grado de multiprogramacion: 4
+[INFO] 03:48:15:708 KERNELPLANIFICADORES/(8839:8840): Cantidad de procesos en memoria: 1
+[INFO] 03:49:18:351 KERNELPLANIFICADORES/(8956:8957): Iniciando planificador a largo plazo con: RR
+[INFO] 03:49:19:347 KERNELPLANIFICADORES/(8956:8957): Salido de colaNEW ID: 0
+[INFO] 03:49:19:347 KERNELPLANIFICADORES/(8956:8957): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 03:49:19:347 KERNELPLANIFICADORES/(8956:8957): Agregado a colaREADY ID: 0
+[INFO] 03:49:19:347 KERNELPLANIFICADORES/(8956:8957): Cantidad de procesos en READY: 1
+[INFO] 03:49:19:347 KERNELPLANIFICADORES/(8956:8957): Cantidad grado de multiprogramacion: 4
+[INFO] 03:49:19:347 KERNELPLANIFICADORES/(8956:8957): Cantidad de procesos en memoria: 1
+[INFO] 03:58:22:973 KERNELPLANIFICADORES/(9125:9126): Iniciando planificador a largo plazo con: RR
+[INFO] 03:58:26:874 KERNELPLANIFICADORES/(9125:9126): Salido de colaNEW ID: 0
+[INFO] 03:58:26:874 KERNELPLANIFICADORES/(9125:9126): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 03:58:26:874 KERNELPLANIFICADORES/(9125:9126): Agregado a colaREADY ID: 0
+[INFO] 03:58:26:874 KERNELPLANIFICADORES/(9125:9126): Cantidad de procesos en READY: 1
+[INFO] 03:58:26:874 KERNELPLANIFICADORES/(9125:9126): Cantidad grado de multiprogramacion: 4
+[INFO] 03:58:26:874 KERNELPLANIFICADORES/(9125:9126): Cantidad de procesos en memoria: 1
+[INFO] 03:59:02:690 KERNELPLANIFICADORES/(9234:9235): Iniciando planificador a largo plazo con: RR
+[INFO] 03:59:04:853 KERNELPLANIFICADORES/(9234:9235): Salido de colaNEW ID: 0
+[INFO] 03:59:04:853 KERNELPLANIFICADORES/(9234:9235): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 03:59:04:853 KERNELPLANIFICADORES/(9234:9235): Agregado a colaREADY ID: 0
+[INFO] 03:59:04:853 KERNELPLANIFICADORES/(9234:9235): Cantidad de procesos en READY: 1
+[INFO] 03:59:04:853 KERNELPLANIFICADORES/(9234:9235): Cantidad grado de multiprogramacion: 4
+[INFO] 03:59:04:853 KERNELPLANIFICADORES/(9234:9235): Cantidad de procesos en memoria: 1
+[INFO] 04:00:11:674 KERNELPLANIFICADORES/(9420:9421): Iniciando planificador a largo plazo con: RR
+[INFO] 04:00:16:015 KERNELPLANIFICADORES/(9420:9421): Salido de colaNEW ID: 0
+[INFO] 04:00:16:015 KERNELPLANIFICADORES/(9420:9421): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 04:00:16:015 KERNELPLANIFICADORES/(9420:9421): Agregado a colaREADY ID: 0
+[INFO] 04:00:16:015 KERNELPLANIFICADORES/(9420:9421): Cantidad de procesos en READY: 1
+[INFO] 04:00:16:015 KERNELPLANIFICADORES/(9420:9421): Cantidad grado de multiprogramacion: 4
+[INFO] 04:00:16:015 KERNELPLANIFICADORES/(9420:9421): Cantidad de procesos en memoria: 1
+[INFO] 04:05:03:136 KERNELPLANIFICADORES/(9946:9947): Iniciando planificador a largo plazo con: RR
+[INFO] 04:05:04:551 KERNELPLANIFICADORES/(9946:9947): Salido de colaNEW ID: 0
+[INFO] 04:05:04:551 KERNELPLANIFICADORES/(9946:9947): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 04:05:04:551 KERNELPLANIFICADORES/(9946:9947): Agregado a colaREADY ID: 0
+[INFO] 04:05:04:551 KERNELPLANIFICADORES/(9946:9947): Cantidad de procesos en READY: 1
+[INFO] 04:05:04:551 KERNELPLANIFICADORES/(9946:9947): Cantidad grado de multiprogramacion: 4
+[INFO] 04:05:04:551 KERNELPLANIFICADORES/(9946:9947): Cantidad de procesos en memoria: 1
+[INFO] 04:05:34:217 KERNELPLANIFICADORES/(10080:10081): Iniciando planificador a largo plazo con: RR
+[INFO] 04:05:36:210 KERNELPLANIFICADORES/(10080:10081): Salido de colaNEW ID: 0
+[INFO] 04:05:36:210 KERNELPLANIFICADORES/(10080:10081): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 04:05:36:210 KERNELPLANIFICADORES/(10080:10081): Agregado a colaREADY ID: 0
+[INFO] 04:05:36:210 KERNELPLANIFICADORES/(10080:10081): Cantidad de procesos en READY: 1
+[INFO] 04:05:36:210 KERNELPLANIFICADORES/(10080:10081): Cantidad grado de multiprogramacion: 4
+[INFO] 04:05:36:210 KERNELPLANIFICADORES/(10080:10081): Cantidad de procesos en memoria: 1
+[INFO] 04:06:12:668 KERNELPLANIFICADORES/(10183:10184): Iniciando planificador a largo plazo con: RR
+[INFO] 04:06:14:503 KERNELPLANIFICADORES/(10183:10184): Salido de colaNEW ID: 0
+[INFO] 04:06:14:503 KERNELPLANIFICADORES/(10183:10184): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 04:06:14:503 KERNELPLANIFICADORES/(10183:10184): Agregado a colaREADY ID: 0
+[INFO] 04:06:14:503 KERNELPLANIFICADORES/(10183:10184): Cantidad de procesos en READY: 1
+[INFO] 04:06:14:503 KERNELPLANIFICADORES/(10183:10184): Cantidad grado de multiprogramacion: 4
+[INFO] 04:06:14:503 KERNELPLANIFICADORES/(10183:10184): Cantidad de procesos en memoria: 1
+[INFO] 04:13:59:600 KERNELPLANIFICADORES/(10784:10785): Iniciando planificador a largo plazo con: RR
+[INFO] 04:15:03:946 KERNELPLANIFICADORES/(10876:10877): Iniciando planificador a largo plazo con: RR
+[INFO] 04:15:07:343 KERNELPLANIFICADORES/(10876:10877): Salido de colaNEW ID: 0
+[INFO] 04:15:07:343 KERNELPLANIFICADORES/(10876:10877): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 04:15:07:343 KERNELPLANIFICADORES/(10876:10877): Agregado a colaREADY ID: 0
+[INFO] 04:15:07:343 KERNELPLANIFICADORES/(10876:10877): Cantidad de procesos en READY: 1
+[INFO] 04:15:07:343 KERNELPLANIFICADORES/(10876:10877): Cantidad grado de multiprogramacion: 4
+[INFO] 04:15:07:343 KERNELPLANIFICADORES/(10876:10877): Cantidad de procesos en memoria: 1
+[INFO] 04:16:05:094 KERNELPLANIFICADORES/(10982:10983): Iniciando planificador a largo plazo con: RR
+[INFO] 04:16:09:250 KERNELPLANIFICADORES/(10982:10983): Salido de colaNEW ID: 0
+[INFO] 04:16:09:250 KERNELPLANIFICADORES/(10982:10983): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 04:16:09:250 KERNELPLANIFICADORES/(10982:10983): Agregado a colaREADY ID: 0
+[INFO] 04:16:09:250 KERNELPLANIFICADORES/(10982:10983): Cantidad de procesos en READY: 1
+[INFO] 04:16:09:250 KERNELPLANIFICADORES/(10982:10983): Cantidad grado de multiprogramacion: 4
+[INFO] 04:16:09:250 KERNELPLANIFICADORES/(10982:10983): Cantidad de procesos en memoria: 1
+[INFO] 04:17:07:288 KERNELPLANIFICADORES/(11211:11212): Iniciando planificador a largo plazo con: RR
+[INFO] 04:17:10:823 KERNELPLANIFICADORES/(11211:11212): Salido de colaNEW ID: 0
+[INFO] 04:17:10:823 KERNELPLANIFICADORES/(11211:11212): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 04:17:10:823 KERNELPLANIFICADORES/(11211:11212): Agregado a colaREADY ID: 0
+[INFO] 04:17:10:823 KERNELPLANIFICADORES/(11211:11212): Cantidad de procesos en READY: 1
+[INFO] 04:17:10:823 KERNELPLANIFICADORES/(11211:11212): Cantidad grado de multiprogramacion: 4
+[INFO] 04:17:10:823 KERNELPLANIFICADORES/(11211:11212): Cantidad de procesos en memoria: 1
+[INFO] 04:17:11:664 KERNELPLANIFICADORES/(11211:11212): Salido de colaNEW ID: 1
+[INFO] 04:17:11:664 KERNELPLANIFICADORES/(11211:11212): PID: <1> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 04:17:11:664 KERNELPLANIFICADORES/(11211:11212): Agregado a colaREADY ID: 1
+[INFO] 04:17:11:664 KERNELPLANIFICADORES/(11211:11212): Cantidad de procesos en READY: 2
+[INFO] 04:17:11:664 KERNELPLANIFICADORES/(11211:11212): Cantidad grado de multiprogramacion: 4
+[INFO] 04:17:11:664 KERNELPLANIFICADORES/(11211:11212): Cantidad de procesos en memoria: 2
+[INFO] 04:17:12:260 KERNELPLANIFICADORES/(11211:11212): Salido de colaNEW ID: 2
+[INFO] 04:17:12:260 KERNELPLANIFICADORES/(11211:11212): PID: <2> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 04:17:12:260 KERNELPLANIFICADORES/(11211:11212): Agregado a colaREADY ID: 2
+[INFO] 04:17:12:260 KERNELPLANIFICADORES/(11211:11212): Cantidad de procesos en READY: 3
+[INFO] 04:17:12:260 KERNELPLANIFICADORES/(11211:11212): Cantidad grado de multiprogramacion: 4
+[INFO] 04:17:12:260 KERNELPLANIFICADORES/(11211:11212): Cantidad de procesos en memoria: 3
+[INFO] 04:17:12:668 KERNELPLANIFICADORES/(11211:11212): Salido de colaNEW ID: 3
+[INFO] 04:17:12:668 KERNELPLANIFICADORES/(11211:11212): PID: <3> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 04:17:12:668 KERNELPLANIFICADORES/(11211:11212): Agregado a colaREADY ID: 3
+[INFO] 04:17:12:668 KERNELPLANIFICADORES/(11211:11212): Cantidad de procesos en READY: 4
+[INFO] 04:17:12:668 KERNELPLANIFICADORES/(11211:11212): Cantidad grado de multiprogramacion: 4
+[INFO] 04:17:12:668 KERNELPLANIFICADORES/(11211:11212): Cantidad de procesos en memoria: 4
+[INFO] 04:19:22:409 KERNELPLANIFICADORES/(11552:11553): Iniciando planificador a largo plazo con: RR
+[INFO] 04:19:56:403 KERNELPLANIFICADORES/(11552:11553): Salido de colaNEW ID: 0
+[INFO] 04:19:56:403 KERNELPLANIFICADORES/(11552:11553): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 04:19:56:403 KERNELPLANIFICADORES/(11552:11553): Agregado a colaREADY ID: 0
+[INFO] 04:19:56:403 KERNELPLANIFICADORES/(11552:11553): Cantidad de procesos en READY: 1
+[INFO] 04:19:56:403 KERNELPLANIFICADORES/(11552:11553): Cantidad grado de multiprogramacion: 4
+[INFO] 04:19:56:403 KERNELPLANIFICADORES/(11552:11553): Cantidad de procesos en memoria: 1
+[INFO] 04:20:28:276 KERNELPLANIFICADORES/(11552:11553): Salido de colaNEW ID: 1
+[INFO] 04:20:28:276 KERNELPLANIFICADORES/(11552:11553): PID: <1> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 04:20:28:276 KERNELPLANIFICADORES/(11552:11553): Agregado a colaREADY ID: 1
+[INFO] 04:20:28:276 KERNELPLANIFICADORES/(11552:11553): Cantidad de procesos en READY: 2
+[INFO] 04:20:28:276 KERNELPLANIFICADORES/(11552:11553): Cantidad grado de multiprogramacion: 4
+[INFO] 04:20:28:276 KERNELPLANIFICADORES/(11552:11553): Cantidad de procesos en memoria: 2
+[INFO] 04:20:28:840 KERNELPLANIFICADORES/(11552:11553): Salido de colaNEW ID: 2
+[INFO] 04:20:28:840 KERNELPLANIFICADORES/(11552:11553): PID: <2> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 04:20:28:840 KERNELPLANIFICADORES/(11552:11553): Agregado a colaREADY ID: 2
+[INFO] 04:20:28:840 KERNELPLANIFICADORES/(11552:11553): Cantidad de procesos en READY: 3
+[INFO] 04:20:28:840 KERNELPLANIFICADORES/(11552:11553): Cantidad grado de multiprogramacion: 4
+[INFO] 04:20:28:840 KERNELPLANIFICADORES/(11552:11553): Cantidad de procesos en memoria: 3
+[INFO] 04:20:29:093 KERNELPLANIFICADORES/(11552:11553): Salido de colaNEW ID: 3
+[INFO] 04:20:29:093 KERNELPLANIFICADORES/(11552:11553): PID: <3> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 04:20:29:093 KERNELPLANIFICADORES/(11552:11553): Agregado a colaREADY ID: 3
+[INFO] 04:20:29:093 KERNELPLANIFICADORES/(11552:11553): Cantidad de procesos en READY: 4
+[INFO] 04:20:29:093 KERNELPLANIFICADORES/(11552:11553): Cantidad grado de multiprogramacion: 4
+[INFO] 04:20:29:093 KERNELPLANIFICADORES/(11552:11553): Cantidad de procesos en memoria: 4
+[INFO] 00:27:24:172 KERNELPLANIFICADORES/(3267:3268): Iniciando planificador a largo plazo con: RR
+[INFO] 00:33:56:577 KERNELPLANIFICADORES/(3267:3268): Salido de colaNEW ID: 0
+[INFO] 00:33:56:577 KERNELPLANIFICADORES/(3267:3268): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 00:33:56:577 KERNELPLANIFICADORES/(3267:3268): Agregado a colaREADY ID: 0
+[INFO] 00:33:56:577 KERNELPLANIFICADORES/(3267:3268): Cantidad de procesos en READY: 1
+[INFO] 00:33:56:577 KERNELPLANIFICADORES/(3267:3268): Cantidad grado de multiprogramacion: 4
+[INFO] 00:33:56:577 KERNELPLANIFICADORES/(3267:3268): Cantidad de procesos en memoria: 1
+[INFO] 00:49:19:578 KERNELPLANIFICADORES/(4118:4119): Iniciando planificador a largo plazo con: RR
+[INFO] 00:49:29:542 KERNELPLANIFICADORES/(4118:4119): Salido de colaNEW ID: 0
+[INFO] 00:49:29:542 KERNELPLANIFICADORES/(4118:4119): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 00:49:29:542 KERNELPLANIFICADORES/(4118:4119): Agregado a colaREADY ID: 0
+[INFO] 00:49:29:542 KERNELPLANIFICADORES/(4118:4119): Cantidad de procesos en READY: 1
+[INFO] 00:49:29:542 KERNELPLANIFICADORES/(4118:4119): Cantidad grado de multiprogramacion: 4
+[INFO] 00:49:29:542 KERNELPLANIFICADORES/(4118:4119): Cantidad de procesos en memoria: 1
+[INFO] 00:51:17:112 KERNELPLANIFICADORES/(4189:4190): Iniciando planificador a largo plazo con: RR
+[INFO] 00:53:20:248 KERNELPLANIFICADORES/(4267:4268): Iniciando planificador a largo plazo con: RR
+[INFO] 00:53:23:468 KERNELPLANIFICADORES/(4267:4268): Salido de colaNEW ID: 0
+[INFO] 00:53:23:468 KERNELPLANIFICADORES/(4267:4268): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 00:53:23:468 KERNELPLANIFICADORES/(4267:4268): Agregado a colaREADY ID: 0
+[INFO] 00:53:23:468 KERNELPLANIFICADORES/(4267:4268): Cantidad de procesos en READY: 1
+[INFO] 00:53:23:468 KERNELPLANIFICADORES/(4267:4268): Cantidad grado de multiprogramacion: 4
+[INFO] 00:53:23:468 KERNELPLANIFICADORES/(4267:4268): Cantidad de procesos en memoria: 1
+[INFO] 00:54:03:716 KERNELPLANIFICADORES/(4299:4300): Iniciando planificador a largo plazo con: RR
+[INFO] 00:54:31:476 KERNELPLANIFICADORES/(4336:4337): Iniciando planificador a largo plazo con: RR
+[INFO] 00:55:32:871 KERNELPLANIFICADORES/(4376:4377): Iniciando planificador a largo plazo con: RR
+[INFO] 00:57:12:859 KERNELPLANIFICADORES/(4436:4437): Iniciando planificador a largo plazo con: RR
+[INFO] 00:57:16:458 KERNELPLANIFICADORES/(4436:4437): Salido de colaNEW ID: 0
+[INFO] 00:57:16:458 KERNELPLANIFICADORES/(4436:4437): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 00:57:16:458 KERNELPLANIFICADORES/(4436:4437): Agregado a colaREADY ID: 0
+[INFO] 00:57:16:458 KERNELPLANIFICADORES/(4436:4437): Cantidad de procesos en READY: 1
+[INFO] 00:57:16:458 KERNELPLANIFICADORES/(4436:4437): Cantidad grado de multiprogramacion: 4
+[INFO] 00:57:16:458 KERNELPLANIFICADORES/(4436:4437): Cantidad de procesos en memoria: 1
+[INFO] 00:58:12:132 KERNELPLANIFICADORES/(4493:4494): Iniciando planificador a largo plazo con: RR
+[INFO] 01:00:23:179 KERNELPLANIFICADORES/(4600:4601): Iniciando planificador a largo plazo con: RR
+[INFO] 01:00:31:037 KERNELPLANIFICADORES/(4600:4601): Salido de colaNEW ID: 0
+[INFO] 01:00:31:037 KERNELPLANIFICADORES/(4600:4601): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 01:00:31:037 KERNELPLANIFICADORES/(4600:4601): Agregado a colaREADY ID: 0
+[INFO] 01:00:31:037 KERNELPLANIFICADORES/(4600:4601): Cantidad de procesos en READY: 1
+[INFO] 01:00:31:037 KERNELPLANIFICADORES/(4600:4601): Cantidad grado de multiprogramacion: 4
+[INFO] 01:00:31:037 KERNELPLANIFICADORES/(4600:4601): Cantidad de procesos en memoria: 1
+[INFO] 01:03:46:280 KERNELPLANIFICADORES/(4689:4690): Iniciando planificador a largo plazo con: RR
+[INFO] 01:03:49:494 KERNELPLANIFICADORES/(4689:4690): Salido de colaNEW ID: 0
+[INFO] 01:03:49:494 KERNELPLANIFICADORES/(4689:4690): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 01:03:49:494 KERNELPLANIFICADORES/(4689:4690): Agregado a colaREADY ID: 0
+[INFO] 01:03:49:494 KERNELPLANIFICADORES/(4689:4690): Cantidad de procesos en READY: 1
+[INFO] 01:03:49:494 KERNELPLANIFICADORES/(4689:4690): Cantidad grado de multiprogramacion: 4
+[INFO] 01:03:49:494 KERNELPLANIFICADORES/(4689:4690): Cantidad de procesos en memoria: 1
+[INFO] 01:04:58:677 KERNELPLANIFICADORES/(4735:4736): Iniciando planificador a largo plazo con: RR
+[INFO] 01:07:36:902 KERNELPLANIFICADORES/(4839:4840): Iniciando planificador a largo plazo con: RR
+[INFO] 01:07:39:213 KERNELPLANIFICADORES/(4839:4840): Salido de colaNEW ID: 0
+[INFO] 01:07:39:213 KERNELPLANIFICADORES/(4839:4840): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 01:07:39:213 KERNELPLANIFICADORES/(4839:4840): Agregado a colaREADY ID: 0
+[INFO] 01:07:39:213 KERNELPLANIFICADORES/(4839:4840): Cantidad de procesos en READY: 1
+[INFO] 01:07:39:213 KERNELPLANIFICADORES/(4839:4840): Cantidad grado de multiprogramacion: 4
+[INFO] 01:07:39:213 KERNELPLANIFICADORES/(4839:4840): Cantidad de procesos en memoria: 1
+[INFO] 01:10:58:073 KERNELPLANIFICADORES/(4960:4961): Iniciando planificador a largo plazo con: RR
+[INFO] 01:11:00:096 KERNELPLANIFICADORES/(4960:4961): Salido de colaNEW ID: 0
+[INFO] 01:11:00:096 KERNELPLANIFICADORES/(4960:4961): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 01:11:00:096 KERNELPLANIFICADORES/(4960:4961): Agregado a colaREADY ID: 0
+[INFO] 01:11:00:096 KERNELPLANIFICADORES/(4960:4961): Cantidad de procesos en READY: 1
+[INFO] 01:11:00:096 KERNELPLANIFICADORES/(4960:4961): Cantidad grado de multiprogramacion: 4
+[INFO] 01:11:00:096 KERNELPLANIFICADORES/(4960:4961): Cantidad de procesos en memoria: 1
+[INFO] 01:12:39:305 KERNELPLANIFICADORES/(5093:5094): Iniciando planificador a largo plazo con: RR
+[INFO] 01:12:41:923 KERNELPLANIFICADORES/(5093:5094): Salido de colaNEW ID: 0
+[INFO] 01:12:41:923 KERNELPLANIFICADORES/(5093:5094): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 01:12:41:923 KERNELPLANIFICADORES/(5093:5094): Agregado a colaREADY ID: 0
+[INFO] 01:12:41:923 KERNELPLANIFICADORES/(5093:5094): Cantidad de procesos en READY: 1
+[INFO] 01:12:41:923 KERNELPLANIFICADORES/(5093:5094): Cantidad grado de multiprogramacion: 4
+[INFO] 01:12:41:923 KERNELPLANIFICADORES/(5093:5094): Cantidad de procesos en memoria: 1
+[INFO] 01:13:35:682 KERNELPLANIFICADORES/(5139:5140): Iniciando planificador a largo plazo con: RR
+[INFO] 01:13:38:970 KERNELPLANIFICADORES/(5139:5140): Salido de colaNEW ID: 0
+[INFO] 01:13:38:970 KERNELPLANIFICADORES/(5139:5140): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 01:13:38:970 KERNELPLANIFICADORES/(5139:5140): Agregado a colaREADY ID: 0
+[INFO] 01:13:38:970 KERNELPLANIFICADORES/(5139:5140): Cantidad de procesos en READY: 1
+[INFO] 01:13:38:970 KERNELPLANIFICADORES/(5139:5140): Cantidad grado de multiprogramacion: 4
+[INFO] 01:13:38:970 KERNELPLANIFICADORES/(5139:5140): Cantidad de procesos en memoria: 1
+[INFO] 01:14:47:288 KERNELPLANIFICADORES/(5185:5186): Iniciando planificador a largo plazo con: RR
+[INFO] 01:14:50:333 KERNELPLANIFICADORES/(5185:5186): Salido de colaNEW ID: 0
+[INFO] 01:14:50:333 KERNELPLANIFICADORES/(5185:5186): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 01:14:50:334 KERNELPLANIFICADORES/(5185:5186): Agregado a colaREADY ID: 0
+[INFO] 01:14:50:334 KERNELPLANIFICADORES/(5185:5186): Cantidad de procesos en READY: 1
+[INFO] 01:14:50:334 KERNELPLANIFICADORES/(5185:5186): Cantidad grado de multiprogramacion: 4
+[INFO] 01:14:50:334 KERNELPLANIFICADORES/(5185:5186): Cantidad de procesos en memoria: 1
+[INFO] 01:17:01:475 KERNELPLANIFICADORES/(5230:5231): Iniciando planificador a largo plazo con: RR
+[INFO] 01:17:05:919 KERNELPLANIFICADORES/(5230:5231): Salido de colaNEW ID: 0
+[INFO] 01:17:05:919 KERNELPLANIFICADORES/(5230:5231): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 01:17:05:919 KERNELPLANIFICADORES/(5230:5231): Agregado a colaREADY ID: 0
+[INFO] 01:17:05:919 KERNELPLANIFICADORES/(5230:5231): Cantidad de procesos en READY: 1
+[INFO] 01:17:05:919 KERNELPLANIFICADORES/(5230:5231): Cantidad grado de multiprogramacion: 4
+[INFO] 01:17:05:919 KERNELPLANIFICADORES/(5230:5231): Cantidad de procesos en memoria: 1
+[INFO] 01:17:26:900 KERNELPLANIFICADORES/(5264:5265): Iniciando planificador a largo plazo con: RR
+[INFO] 01:17:29:236 KERNELPLANIFICADORES/(5264:5265): Salido de colaNEW ID: 0
+[INFO] 01:17:29:236 KERNELPLANIFICADORES/(5264:5265): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 01:17:29:236 KERNELPLANIFICADORES/(5264:5265): Agregado a colaREADY ID: 0
+[INFO] 01:17:29:236 KERNELPLANIFICADORES/(5264:5265): Cantidad de procesos en READY: 1
+[INFO] 01:17:29:236 KERNELPLANIFICADORES/(5264:5265): Cantidad grado de multiprogramacion: 4
+[INFO] 01:17:29:236 KERNELPLANIFICADORES/(5264:5265): Cantidad de procesos en memoria: 1
+[INFO] 16:04:57:128 KERNELPLANIFICADORES/(3630:3631): Iniciando planificador a largo plazo con: RR
+[INFO] 16:05:33:185 KERNELPLANIFICADORES/(3630:3631): Salido de colaNEW ID: 0
+[INFO] 16:05:33:185 KERNELPLANIFICADORES/(3630:3631): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 16:05:33:185 KERNELPLANIFICADORES/(3630:3631): Agregado a colaREADY ID: 0
+[INFO] 16:05:33:185 KERNELPLANIFICADORES/(3630:3631): Cantidad de procesos en READY: 1
+[INFO] 16:05:33:185 KERNELPLANIFICADORES/(3630:3631): Cantidad grado de multiprogramacion: 4
+[INFO] 16:05:33:185 KERNELPLANIFICADORES/(3630:3631): Cantidad de procesos en memoria: 1
+[INFO] 16:06:23:956 KERNELPLANIFICADORES/(3690:3691): Iniciando planificador a largo plazo con: RR
+[INFO] 16:06:26:889 KERNELPLANIFICADORES/(3690:3691): Salido de colaNEW ID: 0
+[INFO] 16:06:26:889 KERNELPLANIFICADORES/(3690:3691): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 16:06:26:889 KERNELPLANIFICADORES/(3690:3691): Agregado a colaREADY ID: 0
+[INFO] 16:06:26:889 KERNELPLANIFICADORES/(3690:3691): Cantidad de procesos en READY: 1
+[INFO] 16:06:26:889 KERNELPLANIFICADORES/(3690:3691): Cantidad grado de multiprogramacion: 4
+[INFO] 16:06:26:889 KERNELPLANIFICADORES/(3690:3691): Cantidad de procesos en memoria: 1
+[INFO] 16:25:24:785 KERNELPLANIFICADORES/(3996:3997): Iniciando planificador a largo plazo con: RR
+[INFO] 16:25:28:326 KERNELPLANIFICADORES/(3996:3997): Salido de colaNEW ID: 0
+[INFO] 16:25:28:326 KERNELPLANIFICADORES/(3996:3997): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 16:25:28:326 KERNELPLANIFICADORES/(3996:3997): Agregado a colaREADY ID: 0
+[INFO] 16:25:28:326 KERNELPLANIFICADORES/(3996:3997): Cantidad de procesos en READY: 1
+[INFO] 16:25:28:326 KERNELPLANIFICADORES/(3996:3997): Cantidad grado de multiprogramacion: 4
+[INFO] 16:25:28:326 KERNELPLANIFICADORES/(3996:3997): Cantidad de procesos en memoria: 1
+[INFO] 16:30:25:875 KERNELPLANIFICADORES/(4169:4170): Iniciando planificador a largo plazo con: RR
+[INFO] 16:30:34:529 KERNELPLANIFICADORES/(4169:4170): Salido de colaNEW ID: 0
+[INFO] 16:30:34:529 KERNELPLANIFICADORES/(4169:4170): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 16:30:34:529 KERNELPLANIFICADORES/(4169:4170): Agregado a colaREADY ID: 0
+[INFO] 16:30:34:529 KERNELPLANIFICADORES/(4169:4170): Cantidad de procesos en READY: 1
+[INFO] 16:30:34:529 KERNELPLANIFICADORES/(4169:4170): Cantidad grado de multiprogramacion: 4
+[INFO] 16:30:34:529 KERNELPLANIFICADORES/(4169:4170): Cantidad de procesos en memoria: 1
+[INFO] 16:33:17:489 KERNELPLANIFICADORES/(4285:4286): Iniciando planificador a largo plazo con: RR
+[INFO] 16:33:21:111 KERNELPLANIFICADORES/(4285:4286): Salido de colaNEW ID: 0
+[INFO] 16:33:21:111 KERNELPLANIFICADORES/(4285:4286): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 16:33:21:111 KERNELPLANIFICADORES/(4285:4286): Agregado a colaREADY ID: 0
+[INFO] 16:33:21:111 KERNELPLANIFICADORES/(4285:4286): Cantidad de procesos en READY: 1
+[INFO] 16:33:21:111 KERNELPLANIFICADORES/(4285:4286): Cantidad grado de multiprogramacion: 4
+[INFO] 16:33:21:111 KERNELPLANIFICADORES/(4285:4286): Cantidad de procesos en memoria: 1
+[INFO] 16:34:46:300 KERNELPLANIFICADORES/(4334:4335): Iniciando planificador a largo plazo con: RR
+[INFO] 16:34:49:938 KERNELPLANIFICADORES/(4334:4335): Salido de colaNEW ID: 0
+[INFO] 16:34:49:938 KERNELPLANIFICADORES/(4334:4335): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 16:34:49:938 KERNELPLANIFICADORES/(4334:4335): Agregado a colaREADY ID: 0
+[INFO] 16:34:49:938 KERNELPLANIFICADORES/(4334:4335): Cantidad de procesos en READY: 1
+[INFO] 16:34:49:938 KERNELPLANIFICADORES/(4334:4335): Cantidad grado de multiprogramacion: 4
+[INFO] 16:34:49:938 KERNELPLANIFICADORES/(4334:4335): Cantidad de procesos en memoria: 1
+[INFO] 16:38:20:351 KERNELPLANIFICADORES/(4400:4401): Iniciando planificador a largo plazo con: RR
+[INFO] 16:38:22:672 KERNELPLANIFICADORES/(4400:4401): Salido de colaNEW ID: 0
+[INFO] 16:38:22:672 KERNELPLANIFICADORES/(4400:4401): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 16:38:22:672 KERNELPLANIFICADORES/(4400:4401): Agregado a colaREADY ID: 0
+[INFO] 16:38:22:672 KERNELPLANIFICADORES/(4400:4401): Cantidad de procesos en READY: 1
+[INFO] 16:38:22:672 KERNELPLANIFICADORES/(4400:4401): Cantidad grado de multiprogramacion: 4
+[INFO] 16:38:22:672 KERNELPLANIFICADORES/(4400:4401): Cantidad de procesos en memoria: 1
+[INFO] 16:39:51:667 KERNELPLANIFICADORES/(4440:4441): Iniciando planificador a largo plazo con: RR
+[INFO] 16:39:54:297 KERNELPLANIFICADORES/(4440:4441): Salido de colaNEW ID: 0
+[INFO] 16:39:54:297 KERNELPLANIFICADORES/(4440:4441): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 16:39:54:297 KERNELPLANIFICADORES/(4440:4441): Agregado a colaREADY ID: 0
+[INFO] 16:39:54:297 KERNELPLANIFICADORES/(4440:4441): Cantidad de procesos en READY: 1
+[INFO] 16:39:54:297 KERNELPLANIFICADORES/(4440:4441): Cantidad grado de multiprogramacion: 4
+[INFO] 16:39:54:297 KERNELPLANIFICADORES/(4440:4441): Cantidad de procesos en memoria: 1
+[INFO] 16:40:39:818 KERNELPLANIFICADORES/(4476:4477): Iniciando planificador a largo plazo con: RR
+[INFO] 16:40:43:163 KERNELPLANIFICADORES/(4476:4477): Salido de colaNEW ID: 0
+[INFO] 16:40:43:163 KERNELPLANIFICADORES/(4476:4477): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 16:40:43:163 KERNELPLANIFICADORES/(4476:4477): Agregado a colaREADY ID: 0
+[INFO] 16:40:43:163 KERNELPLANIFICADORES/(4476:4477): Cantidad de procesos en READY: 1
+[INFO] 16:40:43:163 KERNELPLANIFICADORES/(4476:4477): Cantidad grado de multiprogramacion: 4
+[INFO] 16:40:43:163 KERNELPLANIFICADORES/(4476:4477): Cantidad de procesos en memoria: 1
+[INFO] 16:42:48:837 KERNELPLANIFICADORES/(4531:4532): Iniciando planificador a largo plazo con: RR
+[INFO] 16:42:51:914 KERNELPLANIFICADORES/(4531:4532): Salido de colaNEW ID: 0
+[INFO] 16:42:51:914 KERNELPLANIFICADORES/(4531:4532): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 16:42:51:914 KERNELPLANIFICADORES/(4531:4532): Agregado a colaREADY ID: 0
+[INFO] 16:42:51:914 KERNELPLANIFICADORES/(4531:4532): Cantidad de procesos en READY: 1
+[INFO] 16:42:51:914 KERNELPLANIFICADORES/(4531:4532): Cantidad grado de multiprogramacion: 4
+[INFO] 16:42:51:914 KERNELPLANIFICADORES/(4531:4532): Cantidad de procesos en memoria: 1
+[INFO] 17:00:11:959 KERNELPLANIFICADORES/(4726:4727): Iniciando planificador a largo plazo con: RR
+[INFO] 17:00:14:042 KERNELPLANIFICADORES/(4726:4727): Salido de colaNEW ID: 0
+[INFO] 17:00:14:042 KERNELPLANIFICADORES/(4726:4727): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 17:00:14:042 KERNELPLANIFICADORES/(4726:4727): Agregado a colaREADY ID: 0
+[INFO] 17:00:14:042 KERNELPLANIFICADORES/(4726:4727): Cantidad de procesos en READY: 1
+[INFO] 17:00:14:042 KERNELPLANIFICADORES/(4726:4727): Cantidad grado de multiprogramacion: 4
+[INFO] 17:00:14:042 KERNELPLANIFICADORES/(4726:4727): Cantidad de procesos en memoria: 1
+[INFO] 17:01:04:762 KERNELPLANIFICADORES/(4763:4764): Iniciando planificador a largo plazo con: RR
+[INFO] 17:01:06:471 KERNELPLANIFICADORES/(4763:4764): Salido de colaNEW ID: 0
+[INFO] 17:01:06:471 KERNELPLANIFICADORES/(4763:4764): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 17:01:06:471 KERNELPLANIFICADORES/(4763:4764): Agregado a colaREADY ID: 0
+[INFO] 17:01:06:471 KERNELPLANIFICADORES/(4763:4764): Cantidad de procesos en READY: 1
+[INFO] 17:01:06:471 KERNELPLANIFICADORES/(4763:4764): Cantidad grado de multiprogramacion: 4
+[INFO] 17:01:06:471 KERNELPLANIFICADORES/(4763:4764): Cantidad de procesos en memoria: 1
+[INFO] 17:02:17:806 KERNELPLANIFICADORES/(4801:4802): Iniciando planificador a largo plazo con: RR
+[INFO] 17:02:20:710 KERNELPLANIFICADORES/(4801:4802): Salido de colaNEW ID: 0
+[INFO] 17:02:20:710 KERNELPLANIFICADORES/(4801:4802): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 17:02:20:710 KERNELPLANIFICADORES/(4801:4802): Agregado a colaREADY ID: 0
+[INFO] 17:02:20:710 KERNELPLANIFICADORES/(4801:4802): Cantidad de procesos en READY: 1
+[INFO] 17:02:20:710 KERNELPLANIFICADORES/(4801:4802): Cantidad grado de multiprogramacion: 4
+[INFO] 17:02:20:710 KERNELPLANIFICADORES/(4801:4802): Cantidad de procesos en memoria: 1
+[INFO] 17:03:32:471 KERNELPLANIFICADORES/(4867:4868): Iniciando planificador a largo plazo con: RR
+[INFO] 17:03:34:321 KERNELPLANIFICADORES/(4867:4868): Salido de colaNEW ID: 0
+[INFO] 17:03:34:321 KERNELPLANIFICADORES/(4867:4868): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 17:03:34:321 KERNELPLANIFICADORES/(4867:4868): Agregado a colaREADY ID: 0
+[INFO] 17:03:34:321 KERNELPLANIFICADORES/(4867:4868): Cantidad de procesos en READY: 1
+[INFO] 17:03:34:321 KERNELPLANIFICADORES/(4867:4868): Cantidad grado de multiprogramacion: 4
+[INFO] 17:03:34:321 KERNELPLANIFICADORES/(4867:4868): Cantidad de procesos en memoria: 1
+[INFO] 17:04:24:318 KERNELPLANIFICADORES/(4907:4908): Iniciando planificador a largo plazo con: RR
+[INFO] 17:04:27:807 KERNELPLANIFICADORES/(4907:4908): Salido de colaNEW ID: 0
+[INFO] 17:04:27:807 KERNELPLANIFICADORES/(4907:4908): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 17:04:27:807 KERNELPLANIFICADORES/(4907:4908): Agregado a colaREADY ID: 0
+[INFO] 17:04:27:807 KERNELPLANIFICADORES/(4907:4908): Cantidad de procesos en READY: 1
+[INFO] 17:04:27:807 KERNELPLANIFICADORES/(4907:4908): Cantidad grado de multiprogramacion: 4
+[INFO] 17:04:27:807 KERNELPLANIFICADORES/(4907:4908): Cantidad de procesos en memoria: 1
+[INFO] 00:32:51:445 KERNELPLANIFICADORES/(6496:6497): Iniciando planificador a largo plazo con: RR
+[INFO] 00:33:19:827 KERNELPLANIFICADORES/(6496:6497): Salido de colaNEW ID: 0
+[INFO] 00:33:19:827 KERNELPLANIFICADORES/(6496:6497): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 00:33:19:827 KERNELPLANIFICADORES/(6496:6497): Agregado a colaREADY ID: 0
+[INFO] 00:33:19:827 KERNELPLANIFICADORES/(6496:6497): Cantidad de procesos en READY: 1
+[INFO] 00:33:19:827 KERNELPLANIFICADORES/(6496:6497): Cantidad grado de multiprogramacion: 4
+[INFO] 00:33:19:827 KERNELPLANIFICADORES/(6496:6497): Cantidad de procesos en memoria: 1
+[INFO] 00:33:25:838 KERNELPLANIFICADORES/(6496:6497): Salido de colaNEW ID: 1
+[INFO] 00:33:25:838 KERNELPLANIFICADORES/(6496:6497): PID: <1> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 00:33:25:838 KERNELPLANIFICADORES/(6496:6497): Agregado a colaREADY ID: 1
+[INFO] 00:33:25:838 KERNELPLANIFICADORES/(6496:6497): Cantidad de procesos en READY: 2
+[INFO] 00:33:25:838 KERNELPLANIFICADORES/(6496:6497): Cantidad grado de multiprogramacion: 4
+[INFO] 00:33:25:838 KERNELPLANIFICADORES/(6496:6497): Cantidad de procesos en memoria: 2
+[INFO] 00:34:22:202 KERNELPLANIFICADORES/(6786:6787): Iniciando planificador a largo plazo con: RR
+[INFO] 00:34:23:828 KERNELPLANIFICADORES/(6786:6787): Salido de colaNEW ID: 0
+[INFO] 00:34:23:829 KERNELPLANIFICADORES/(6786:6787): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 00:34:23:829 KERNELPLANIFICADORES/(6786:6787): Agregado a colaREADY ID: 0
+[INFO] 00:34:23:829 KERNELPLANIFICADORES/(6786:6787): Cantidad de procesos en READY: 1
+[INFO] 00:34:23:829 KERNELPLANIFICADORES/(6786:6787): Cantidad grado de multiprogramacion: 4
+[INFO] 00:34:23:829 KERNELPLANIFICADORES/(6786:6787): Cantidad de procesos en memoria: 1
+[INFO] 00:34:48:351 KERNELPLANIFICADORES/(6942:6943): Iniciando planificador a largo plazo con: RR
+[INFO] 00:34:50:761 KERNELPLANIFICADORES/(6942:6943): Salido de colaNEW ID: 0
+[INFO] 00:34:50:761 KERNELPLANIFICADORES/(6942:6943): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 00:34:50:761 KERNELPLANIFICADORES/(6942:6943): Agregado a colaREADY ID: 0
+[INFO] 00:34:50:761 KERNELPLANIFICADORES/(6942:6943): Cantidad de procesos en READY: 1
+[INFO] 00:34:50:761 KERNELPLANIFICADORES/(6942:6943): Cantidad grado de multiprogramacion: 4
+[INFO] 00:34:50:761 KERNELPLANIFICADORES/(6942:6943): Cantidad de procesos en memoria: 1
+[INFO] 00:41:32:265 KERNELPLANIFICADORES/(7425:7426): Iniciando planificador a largo plazo con: RR
+[INFO] 00:41:33:580 KERNELPLANIFICADORES/(7425:7426): Salido de colaNEW ID: 0
+[INFO] 00:41:33:580 KERNELPLANIFICADORES/(7425:7426): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 00:41:33:580 KERNELPLANIFICADORES/(7425:7426): Agregado a colaREADY ID: 0
+[INFO] 00:41:33:580 KERNELPLANIFICADORES/(7425:7426): Cantidad de procesos en READY: 1
+[INFO] 00:41:33:580 KERNELPLANIFICADORES/(7425:7426): Cantidad grado de multiprogramacion: 4
+[INFO] 00:41:33:580 KERNELPLANIFICADORES/(7425:7426): Cantidad de procesos en memoria: 1
+[INFO] 00:41:34:216 KERNELPLANIFICADORES/(7425:7426): Salido de colaNEW ID: 1
+[INFO] 00:41:34:216 KERNELPLANIFICADORES/(7425:7426): PID: <1> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 00:41:34:216 KERNELPLANIFICADORES/(7425:7426): Agregado a colaREADY ID: 1
+[INFO] 00:41:34:216 KERNELPLANIFICADORES/(7425:7426): Cantidad de procesos en READY: 2
+[INFO] 00:41:34:216 KERNELPLANIFICADORES/(7425:7426): Cantidad grado de multiprogramacion: 4
+[INFO] 00:41:34:216 KERNELPLANIFICADORES/(7425:7426): Cantidad de procesos en memoria: 2
+[INFO] 00:41:34:850 KERNELPLANIFICADORES/(7425:7426): Salido de colaNEW ID: 2
+[INFO] 00:41:34:850 KERNELPLANIFICADORES/(7425:7426): PID: <2> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 00:41:34:850 KERNELPLANIFICADORES/(7425:7426): Agregado a colaREADY ID: 2
+[INFO] 00:41:34:850 KERNELPLANIFICADORES/(7425:7426): Cantidad de procesos en READY: 3
+[INFO] 00:41:34:850 KERNELPLANIFICADORES/(7425:7426): Cantidad grado de multiprogramacion: 4
+[INFO] 00:41:34:850 KERNELPLANIFICADORES/(7425:7426): Cantidad de procesos en memoria: 3
+[INFO] 00:42:32:350 KERNELPLANIFICADORES/(7571:7572): Iniciando planificador a largo plazo con: RR
+[INFO] 00:42:33:957 KERNELPLANIFICADORES/(7571:7572): Salido de colaNEW ID: 0
+[INFO] 00:42:33:957 KERNELPLANIFICADORES/(7571:7572): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 00:42:33:957 KERNELPLANIFICADORES/(7571:7572): Agregado a colaREADY ID: 0
+[INFO] 00:42:33:957 KERNELPLANIFICADORES/(7571:7572): Cantidad de procesos en READY: 1
+[INFO] 00:42:33:957 KERNELPLANIFICADORES/(7571:7572): Cantidad grado de multiprogramacion: 4
+[INFO] 00:42:33:957 KERNELPLANIFICADORES/(7571:7572): Cantidad de procesos en memoria: 1
+[INFO] 00:42:36:519 KERNELPLANIFICADORES/(7571:7572): Salido de colaNEW ID: 1
+[INFO] 00:42:36:519 KERNELPLANIFICADORES/(7571:7572): PID: <1> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 00:42:36:519 KERNELPLANIFICADORES/(7571:7572): Agregado a colaREADY ID: 1
+[INFO] 00:42:36:519 KERNELPLANIFICADORES/(7571:7572): Cantidad de procesos en READY: 2
+[INFO] 00:42:36:519 KERNELPLANIFICADORES/(7571:7572): Cantidad grado de multiprogramacion: 4
+[INFO] 00:42:36:519 KERNELPLANIFICADORES/(7571:7572): Cantidad de procesos en memoria: 2
+[INFO] 00:42:37:205 KERNELPLANIFICADORES/(7571:7572): Salido de colaNEW ID: 2
+[INFO] 00:42:37:205 KERNELPLANIFICADORES/(7571:7572): PID: <2> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 00:42:37:205 KERNELPLANIFICADORES/(7571:7572): Agregado a colaREADY ID: 2
+[INFO] 00:42:37:205 KERNELPLANIFICADORES/(7571:7572): Cantidad de procesos en READY: 3
+[INFO] 00:42:37:205 KERNELPLANIFICADORES/(7571:7572): Cantidad grado de multiprogramacion: 4
+[INFO] 00:42:37:205 KERNELPLANIFICADORES/(7571:7572): Cantidad de procesos en memoria: 3
+[INFO] 00:43:09:673 KERNELPLANIFICADORES/(7741:7742): Iniciando planificador a largo plazo con: RR
+[INFO] 00:43:11:258 KERNELPLANIFICADORES/(7741:7742): Salido de colaNEW ID: 0
+[INFO] 00:43:11:258 KERNELPLANIFICADORES/(7741:7742): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 00:43:11:258 KERNELPLANIFICADORES/(7741:7742): Agregado a colaREADY ID: 0
+[INFO] 00:43:11:258 KERNELPLANIFICADORES/(7741:7742): Cantidad de procesos en READY: 1
+[INFO] 00:43:11:258 KERNELPLANIFICADORES/(7741:7742): Cantidad grado de multiprogramacion: 4
+[INFO] 00:43:11:258 KERNELPLANIFICADORES/(7741:7742): Cantidad de procesos en memoria: 1
+[INFO] 00:43:12:571 KERNELPLANIFICADORES/(7741:7742): Salido de colaNEW ID: 1
+[INFO] 00:43:12:571 KERNELPLANIFICADORES/(7741:7742): PID: <1> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 00:43:12:571 KERNELPLANIFICADORES/(7741:7742): Agregado a colaREADY ID: 1
+[INFO] 00:43:12:571 KERNELPLANIFICADORES/(7741:7742): Cantidad de procesos en READY: 2
+[INFO] 00:43:12:571 KERNELPLANIFICADORES/(7741:7742): Cantidad grado de multiprogramacion: 4
+[INFO] 00:43:12:571 KERNELPLANIFICADORES/(7741:7742): Cantidad de procesos en memoria: 2
+[INFO] 00:43:12:966 KERNELPLANIFICADORES/(7741:7742): Salido de colaNEW ID: 2
+[INFO] 00:43:12:966 KERNELPLANIFICADORES/(7741:7742): PID: <2> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 00:43:12:966 KERNELPLANIFICADORES/(7741:7742): Agregado a colaREADY ID: 2
+[INFO] 00:43:12:966 KERNELPLANIFICADORES/(7741:7742): Cantidad de procesos en READY: 3
+[INFO] 00:43:12:966 KERNELPLANIFICADORES/(7741:7742): Cantidad grado de multiprogramacion: 4
+[INFO] 00:43:12:966 KERNELPLANIFICADORES/(7741:7742): Cantidad de procesos en memoria: 3
+[INFO] 00:43:13:308 KERNELPLANIFICADORES/(7741:7742): Salido de colaNEW ID: 3
+[INFO] 00:43:13:308 KERNELPLANIFICADORES/(7741:7742): PID: <3> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 00:43:13:308 KERNELPLANIFICADORES/(7741:7742): Agregado a colaREADY ID: 3
+[INFO] 00:43:13:308 KERNELPLANIFICADORES/(7741:7742): Cantidad de procesos en READY: 4
+[INFO] 00:43:13:308 KERNELPLANIFICADORES/(7741:7742): Cantidad grado de multiprogramacion: 4
+[INFO] 00:43:13:308 KERNELPLANIFICADORES/(7741:7742): Cantidad de procesos en memoria: 4
+[INFO] 06:01:23:617 KERNELPLANIFICADORES/(10318:10319): Iniciando planificador a largo plazo con: RR
+[INFO] 06:01:25:710 KERNELPLANIFICADORES/(10318:10319): Salido de colaNEW ID: 0
+[INFO] 06:01:25:711 KERNELPLANIFICADORES/(10318:10319): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 06:01:25:711 KERNELPLANIFICADORES/(10318:10319): Agregado a colaREADY ID: 0
+[INFO] 06:01:25:711 KERNELPLANIFICADORES/(10318:10319): Cantidad de procesos en READY: 1
+[INFO] 06:01:25:711 KERNELPLANIFICADORES/(10318:10319): Cantidad grado de multiprogramacion: 4
+[INFO] 06:01:25:711 KERNELPLANIFICADORES/(10318:10319): Cantidad de procesos en memoria: 1
+[INFO] 06:01:26:440 KERNELPLANIFICADORES/(10318:10319): Salido de colaNEW ID: 1
+[INFO] 06:01:26:440 KERNELPLANIFICADORES/(10318:10319): PID: <1> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 06:01:26:440 KERNELPLANIFICADORES/(10318:10319): Agregado a colaREADY ID: 1
+[INFO] 06:01:26:440 KERNELPLANIFICADORES/(10318:10319): Cantidad de procesos en READY: 2
+[INFO] 06:01:26:440 KERNELPLANIFICADORES/(10318:10319): Cantidad grado de multiprogramacion: 4
+[INFO] 06:01:26:440 KERNELPLANIFICADORES/(10318:10319): Cantidad de procesos en memoria: 2
+[INFO] 06:01:27:561 KERNELPLANIFICADORES/(10318:10319): Salido de colaNEW ID: 2
+[INFO] 06:01:27:561 KERNELPLANIFICADORES/(10318:10319): PID: <2> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 06:01:27:561 KERNELPLANIFICADORES/(10318:10319): Agregado a colaREADY ID: 2
+[INFO] 06:01:27:561 KERNELPLANIFICADORES/(10318:10319): Cantidad de procesos en READY: 3
+[INFO] 06:01:27:561 KERNELPLANIFICADORES/(10318:10319): Cantidad grado de multiprogramacion: 4
+[INFO] 06:01:27:561 KERNELPLANIFICADORES/(10318:10319): Cantidad de procesos en memoria: 3
+[INFO] 06:01:28:426 KERNELPLANIFICADORES/(10318:10319): Salido de colaNEW ID: 3
+[INFO] 06:01:28:426 KERNELPLANIFICADORES/(10318:10319): PID: <3> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 06:01:28:426 KERNELPLANIFICADORES/(10318:10319): Agregado a colaREADY ID: 3
+[INFO] 06:01:28:426 KERNELPLANIFICADORES/(10318:10319): Cantidad de procesos en READY: 4
+[INFO] 06:01:28:426 KERNELPLANIFICADORES/(10318:10319): Cantidad grado de multiprogramacion: 4
+[INFO] 06:01:28:426 KERNELPLANIFICADORES/(10318:10319): Cantidad de procesos en memoria: 4
+[INFO] 19:14:57:641 KERNELPLANIFICADORES/(4423:4424): Iniciando planificador a largo plazo con: RR
+[INFO] 19:15:01:061 KERNELPLANIFICADORES/(4429:4430): Iniciando planificador a largo plazo con: RR
+[INFO] 19:15:07:530 KERNELPLANIFICADORES/(4429:4430): Salido de colaNEW ID: 0
+[INFO] 19:15:07:530 KERNELPLANIFICADORES/(4429:4430): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 19:15:07:530 KERNELPLANIFICADORES/(4429:4430): Agregado a colaREADY ID: 0
+[INFO] 19:15:07:530 KERNELPLANIFICADORES/(4429:4430): Cantidad de procesos en READY: 1
+[INFO] 19:15:07:530 KERNELPLANIFICADORES/(4429:4430): Cantidad grado de multiprogramacion: 4
+[INFO] 19:15:07:530 KERNELPLANIFICADORES/(4429:4430): Cantidad de procesos en memoria: 1
+[INFO] 19:15:08:892 KERNELPLANIFICADORES/(4429:4430): Salido de colaNEW ID: 1
+[INFO] 19:15:08:892 KERNELPLANIFICADORES/(4429:4430): PID: <1> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 19:15:08:892 KERNELPLANIFICADORES/(4429:4430): Agregado a colaREADY ID: 1
+[INFO] 19:15:08:892 KERNELPLANIFICADORES/(4429:4430): Cantidad de procesos en READY: 2
+[INFO] 19:15:08:892 KERNELPLANIFICADORES/(4429:4430): Cantidad grado de multiprogramacion: 4
+[INFO] 19:15:08:892 KERNELPLANIFICADORES/(4429:4430): Cantidad de procesos en memoria: 2
+[INFO] 19:15:13:358 KERNELPLANIFICADORES/(4429:4430): Salido de colaNEW ID: 2
+[INFO] 19:15:13:358 KERNELPLANIFICADORES/(4429:4430): PID: <2> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 19:15:13:358 KERNELPLANIFICADORES/(4429:4430): Agregado a colaREADY ID: 2
+[INFO] 19:15:13:358 KERNELPLANIFICADORES/(4429:4430): Cantidad de procesos en READY: 3
+[INFO] 19:15:13:358 KERNELPLANIFICADORES/(4429:4430): Cantidad grado de multiprogramacion: 4
+[INFO] 19:15:13:358 KERNELPLANIFICADORES/(4429:4430): Cantidad de procesos en memoria: 3
+[INFO] 19:15:14:155 KERNELPLANIFICADORES/(4429:4430): Salido de colaNEW ID: 3
+[INFO] 19:15:14:155 KERNELPLANIFICADORES/(4429:4430): PID: <3> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 19:15:14:155 KERNELPLANIFICADORES/(4429:4430): Agregado a colaREADY ID: 3
+[INFO] 19:15:14:155 KERNELPLANIFICADORES/(4429:4430): Cantidad de procesos en READY: 4
+[INFO] 19:15:14:155 KERNELPLANIFICADORES/(4429:4430): Cantidad grado de multiprogramacion: 4
+[INFO] 19:15:14:155 KERNELPLANIFICADORES/(4429:4430): Cantidad de procesos en memoria: 4
+[INFO] 19:27:08:299 KERNELPLANIFICADORES/(4827:4828): Iniciando planificador a largo plazo con: RR
+[INFO] 19:27:11:837 KERNELPLANIFICADORES/(4827:4828): Salido de colaNEW ID: 0
+[INFO] 19:27:11:837 KERNELPLANIFICADORES/(4827:4828): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 19:27:11:837 KERNELPLANIFICADORES/(4827:4828): Agregado a colaREADY ID: 0
+[INFO] 19:27:11:837 KERNELPLANIFICADORES/(4827:4828): Cantidad de procesos en READY: 1
+[INFO] 19:27:11:837 KERNELPLANIFICADORES/(4827:4828): Cantidad grado de multiprogramacion: 4
+[INFO] 19:27:11:837 KERNELPLANIFICADORES/(4827:4828): Cantidad de procesos en memoria: 1
+[INFO] 19:27:12:571 KERNELPLANIFICADORES/(4827:4828): Salido de colaNEW ID: 1
+[INFO] 19:27:12:571 KERNELPLANIFICADORES/(4827:4828): PID: <1> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 19:27:12:571 KERNELPLANIFICADORES/(4827:4828): Agregado a colaREADY ID: 1
+[INFO] 19:27:12:571 KERNELPLANIFICADORES/(4827:4828): Cantidad de procesos en READY: 2
+[INFO] 19:27:12:571 KERNELPLANIFICADORES/(4827:4828): Cantidad grado de multiprogramacion: 4
+[INFO] 19:27:12:571 KERNELPLANIFICADORES/(4827:4828): Cantidad de procesos en memoria: 2
+[INFO] 19:27:13:048 KERNELPLANIFICADORES/(4827:4828): Salido de colaNEW ID: 2
+[INFO] 19:27:13:048 KERNELPLANIFICADORES/(4827:4828): PID: <2> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 19:27:13:048 KERNELPLANIFICADORES/(4827:4828): Agregado a colaREADY ID: 2
+[INFO] 19:27:13:048 KERNELPLANIFICADORES/(4827:4828): Cantidad de procesos en READY: 3
+[INFO] 19:27:13:048 KERNELPLANIFICADORES/(4827:4828): Cantidad grado de multiprogramacion: 4
+[INFO] 19:27:13:048 KERNELPLANIFICADORES/(4827:4828): Cantidad de procesos en memoria: 3
+[INFO] 19:27:13:450 KERNELPLANIFICADORES/(4827:4828): Salido de colaNEW ID: 3
+[INFO] 19:27:13:450 KERNELPLANIFICADORES/(4827:4828): PID: <3> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 19:27:13:450 KERNELPLANIFICADORES/(4827:4828): Agregado a colaREADY ID: 3
+[INFO] 19:27:13:450 KERNELPLANIFICADORES/(4827:4828): Cantidad de procesos en READY: 4
+[INFO] 19:27:13:450 KERNELPLANIFICADORES/(4827:4828): Cantidad grado de multiprogramacion: 4
+[INFO] 19:27:13:450 KERNELPLANIFICADORES/(4827:4828): Cantidad de procesos en memoria: 4
+=======
+[INFO] 00:29:53:177 KERNELPLANIFICADORES/(7802:7802): Antes de iniciar planificadores
+[INFO] 00:29:53:177 KERNELPLANIFICADORES/(7802:7802): SAli de iniciar planificadores
+[INFO] 00:29:53:177 KERNELPLANIFICADORES/(7802:7805): Iniciando planificador a largo plazo con: RR
+[INFO] 00:29:53:177 KERNELPLANIFICADORES/(7802:7806): INICIALIZANDO CORTO PLAZO RR
+[INFO] 00:29:53:177 KERNELPLANIFICADORES/(7802:7807): SE CREA EL CONTADOR DE QUANTUM
+[INFO] 00:30:09:449 KERNELPLANIFICADORES/(7802:7805): Salido de colaNEW ID: 0
+[INFO] 00:30:09:449 KERNELPLANIFICADORES/(7802:7805): Agregado a colaREADY ID: 0
+[INFO] 00:30:09:449 KERNELPLANIFICADORES/(7802:7805): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 00:30:09:449 KERNELPLANIFICADORES/(7802:7805): Cantidad de procesos en READY: 1
+[INFO] 00:30:09:449 KERNELPLANIFICADORES/(7802:7805): Cantidad grado de multiprogramacion: 4
+[INFO] 00:30:09:449 KERNELPLANIFICADORES/(7802:7805): Cantidad de procesos en memoria: 1
+[INFO] 00:30:09:449 KERNELPLANIFICADORES/(7802:7806): Salido de colaREADY ID: 0
+[INFO] 00:30:09:449 KERNELPLANIFICADORES/(7802:7806): Entrado EXEC QUEUE ID: 0
+[INFO] 00:30:09:449 KERNELPLANIFICADORES/(7802:7806): PID: <0> - Estado Anterior: <1> - Estado Actual: <2>
+[INFO] 00:30:09:450 KERNELPLANIFICADORES/(7802:7806): Salido EXEC QUEUE ID: 0
+[INFO] 00:30:09:788 KERNELPLANIFICADORES/(7802:7806): Process status 32698
+[INFO] 00:30:09:788 KERNELPLANIFICADORES/(7802:7806): DevueltoConMotivo: 4
+[INFO] 00:30:09:788 KERNELPLANIFICADORES/(7802:7806): DevueltoConMotivo: 4
+[INFO] 00:30:09:788 KERNELPLANIFICADORES/(7802:7806): largo del dispositivo: -862633472
+[INFO] 00:30:09:788 KERNELPLANIFICADORES/(7802:7806): Dispositivo: (null)
+[INFO] 00:30:09:788 KERNELPLANIFICADORES/(7802:7806): Cant a ejecutar: 755504592
+[INFO] 00:33:17:139 KERNELPLANIFICADORES/(8060:8060): Antes de iniciar planificadores
+[INFO] 00:33:17:139 KERNELPLANIFICADORES/(8060:8060): SAli de iniciar planificadores
+[INFO] 00:33:17:140 KERNELPLANIFICADORES/(8060:8063): INICIALIZANDO CORTO PLAZO RR
+[INFO] 00:33:17:140 KERNELPLANIFICADORES/(8060:8064): SE CREA EL CONTADOR DE QUANTUM
+[INFO] 00:33:17:140 KERNELPLANIFICADORES/(8060:8062): Iniciando planificador a largo plazo con: RR
+[INFO] 00:33:21:853 KERNELPLANIFICADORES/(8060:8062): Salido de colaNEW ID: 0
+[INFO] 00:33:21:853 KERNELPLANIFICADORES/(8060:8062): Agregado a colaREADY ID: 0
+[INFO] 00:33:21:853 KERNELPLANIFICADORES/(8060:8062): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 00:33:21:853 KERNELPLANIFICADORES/(8060:8062): Cantidad de procesos en READY: 1
+[INFO] 00:33:21:853 KERNELPLANIFICADORES/(8060:8062): Cantidad grado de multiprogramacion: 4
+[INFO] 00:33:21:853 KERNELPLANIFICADORES/(8060:8062): Cantidad de procesos en memoria: 1
+[INFO] 00:33:21:853 KERNELPLANIFICADORES/(8060:8063): Salido de colaREADY ID: 0
+[INFO] 00:33:21:853 KERNELPLANIFICADORES/(8060:8063): Entrado EXEC QUEUE ID: 0
+[INFO] 00:33:21:853 KERNELPLANIFICADORES/(8060:8063): PID: <0> - Estado Anterior: <1> - Estado Actual: <2>
+[INFO] 00:33:21:853 KERNELPLANIFICADORES/(8060:8063): Salido EXEC QUEUE ID: 0
+[INFO] 00:37:11:824 KERNELPLANIFICADORES/(8193:8193): Antes de iniciar planificadores
+[INFO] 00:37:11:825 KERNELPLANIFICADORES/(8193:8193): SAli de iniciar planificadores
+[INFO] 00:37:11:825 KERNELPLANIFICADORES/(8193:8196): Iniciando planificador a largo plazo con: RR
+[INFO] 00:37:11:825 KERNELPLANIFICADORES/(8193:8198): SE CREA EL CONTADOR DE QUANTUM
+[INFO] 00:37:11:825 KERNELPLANIFICADORES/(8193:8197): INICIALIZANDO CORTO PLAZO RR
+[INFO] 00:37:14:826 KERNELPLANIFICADORES/(8193:8196): Salido de colaNEW ID: 0
+[INFO] 00:37:14:826 KERNELPLANIFICADORES/(8193:8196): Agregado a colaREADY ID: 0
+[INFO] 00:37:14:827 KERNELPLANIFICADORES/(8193:8196): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 00:37:14:827 KERNELPLANIFICADORES/(8193:8196): Cantidad de procesos en READY: 1
+[INFO] 00:37:14:827 KERNELPLANIFICADORES/(8193:8196): Cantidad grado de multiprogramacion: 4
+[INFO] 00:37:14:827 KERNELPLANIFICADORES/(8193:8196): Cantidad de procesos en memoria: 1
+[INFO] 00:37:14:827 KERNELPLANIFICADORES/(8193:8197): Salido de colaREADY ID: 0
+[INFO] 00:37:14:827 KERNELPLANIFICADORES/(8193:8197): Entrado EXEC QUEUE ID: 0
+[INFO] 00:37:14:827 KERNELPLANIFICADORES/(8193:8197): PID: <0> - Estado Anterior: <1> - Estado Actual: <2>
+[INFO] 00:37:14:827 KERNELPLANIFICADORES/(8193:8197): Salido EXEC QUEUE ID: 0
+[INFO] 00:37:14:828 KERNELPLANIFICADORES/(8193:8197): inicio la actualizacion del pcb
+[INFO] 00:37:52:403 KERNELPLANIFICADORES/(8269:8269): Antes de iniciar planificadores
+[INFO] 00:37:52:403 KERNELPLANIFICADORES/(8269:8272): Iniciando planificador a largo plazo con: RR
+[INFO] 00:37:52:403 KERNELPLANIFICADORES/(8269:8269): SAli de iniciar planificadores
+[INFO] 00:37:52:404 KERNELPLANIFICADORES/(8269:8273): INICIALIZANDO CORTO PLAZO RR
+[INFO] 00:37:52:404 KERNELPLANIFICADORES/(8269:8274): SE CREA EL CONTADOR DE QUANTUM
+[INFO] 00:37:55:406 KERNELPLANIFICADORES/(8269:8272): Salido de colaNEW ID: 0
+[INFO] 00:37:55:407 KERNELPLANIFICADORES/(8269:8272): Agregado a colaREADY ID: 0
+[INFO] 00:37:55:407 KERNELPLANIFICADORES/(8269:8272): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 00:37:55:407 KERNELPLANIFICADORES/(8269:8272): Cantidad de procesos en READY: 1
+[INFO] 00:37:55:407 KERNELPLANIFICADORES/(8269:8273): Salido de colaREADY ID: 0
+[INFO] 00:37:55:407 KERNELPLANIFICADORES/(8269:8272): Cantidad grado de multiprogramacion: 4
+[INFO] 00:37:55:407 KERNELPLANIFICADORES/(8269:8272): Cantidad de procesos en memoria: 1
+[INFO] 00:37:55:408 KERNELPLANIFICADORES/(8269:8273): Entrado EXEC QUEUE ID: 0
+[INFO] 00:37:55:408 KERNELPLANIFICADORES/(8269:8273): PID: <0> - Estado Anterior: <1> - Estado Actual: <2>
+[INFO] 00:37:55:409 KERNELPLANIFICADORES/(8269:8273): Salido EXEC QUEUE ID: 0
+[INFO] 00:37:55:410 KERNELPLANIFICADORES/(8269:8273): inicio la actualizacion del pcb
+[INFO] 00:38:44:440 KERNELPLANIFICADORES/(8310:8310): Antes de iniciar planificadores
+[INFO] 00:38:44:440 KERNELPLANIFICADORES/(8310:8310): SAli de iniciar planificadores
+[INFO] 00:38:44:440 KERNELPLANIFICADORES/(8310:8314): SE CREA EL CONTADOR DE QUANTUM
+[INFO] 00:38:44:440 KERNELPLANIFICADORES/(8310:8313): INICIALIZANDO CORTO PLAZO RR
+[INFO] 00:38:44:440 KERNELPLANIFICADORES/(8310:8312): Iniciando planificador a largo plazo con: RR
+[INFO] 00:38:49:481 KERNELPLANIFICADORES/(8310:8312): Salido de colaNEW ID: 0
+[INFO] 00:38:49:481 KERNELPLANIFICADORES/(8310:8312): Agregado a colaREADY ID: 0
+[INFO] 00:38:49:481 KERNELPLANIFICADORES/(8310:8313): Salido de colaREADY ID: 0
+[INFO] 00:38:49:481 KERNELPLANIFICADORES/(8310:8313): Entrado EXEC QUEUE ID: 0
+[INFO] 00:38:49:481 KERNELPLANIFICADORES/(8310:8313): PID: <0> - Estado Anterior: <1> - Estado Actual: <2>
+[INFO] 00:38:49:482 KERNELPLANIFICADORES/(8310:8313): Salido EXEC QUEUE ID: 0
+[INFO] 00:38:49:482 KERNELPLANIFICADORES/(8310:8312): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 00:38:49:482 KERNELPLANIFICADORES/(8310:8312): Cantidad de procesos en READY: 0
+[INFO] 00:38:49:482 KERNELPLANIFICADORES/(8310:8312): Cantidad grado de multiprogramacion: 4
+[INFO] 00:38:49:482 KERNELPLANIFICADORES/(8310:8312): Cantidad de procesos en memoria: 1
+[INFO] 00:38:49:483 KERNELPLANIFICADORES/(8310:8313): inicio la actualizacion del pcb
+[INFO] 00:38:49:483 KERNELPLANIFICADORES/(8310:8313): inicio la actualizacion del pcb
+[INFO] 00:38:49:483 KERNELPLANIFICADORES/(8310:8313): inicio la actualizacion del pcb
+[INFO] 00:38:49:483 KERNELPLANIFICADORES/(8310:8313): inicio la actualizacion del pcb
+[INFO] 00:38:49:483 KERNELPLANIFICADORES/(8310:8313): inicio la actualizacion del pcb
+[INFO] 00:41:40:509 KERNELPLANIFICADORES/(8461:8461): Antes de iniciar planificadores
+[INFO] 00:41:40:510 KERNELPLANIFICADORES/(8461:8461): SAli de iniciar planificadores
+[INFO] 00:41:40:510 KERNELPLANIFICADORES/(8461:8464): Iniciando planificador a largo plazo con: RR
+[INFO] 00:41:40:510 KERNELPLANIFICADORES/(8461:8466): SE CREA EL CONTADOR DE QUANTUM
+[INFO] 00:41:40:510 KERNELPLANIFICADORES/(8461:8465): INICIALIZANDO CORTO PLAZO RR
+[INFO] 00:41:43:532 KERNELPLANIFICADORES/(8461:8464): Salido de colaNEW ID: 0
+[INFO] 00:41:43:532 KERNELPLANIFICADORES/(8461:8464): Agregado a colaREADY ID: 0
+[INFO] 00:41:43:532 KERNELPLANIFICADORES/(8461:8465): Salido de colaREADY ID: 0
+[INFO] 00:41:43:532 KERNELPLANIFICADORES/(8461:8465): Entrado EXEC QUEUE ID: 0
+[INFO] 00:41:43:532 KERNELPLANIFICADORES/(8461:8465): PID: <0> - Estado Anterior: <1> - Estado Actual: <2>
+[INFO] 00:41:43:532 KERNELPLANIFICADORES/(8461:8464): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 00:41:43:533 KERNELPLANIFICADORES/(8461:8465): Salido EXEC QUEUE ID: 0
+[INFO] 00:41:43:533 KERNELPLANIFICADORES/(8461:8464): Cantidad de procesos en READY: 0
+[INFO] 00:41:43:534 KERNELPLANIFICADORES/(8461:8464): Cantidad grado de multiprogramacion: 4
+[INFO] 00:41:43:535 KERNELPLANIFICADORES/(8461:8465): inicio la actualizacion del pcb
+[INFO] 00:41:43:535 KERNELPLANIFICADORES/(8461:8465): inicio la actualizacion del pcb
+[INFO] 00:41:43:535 KERNELPLANIFICADORES/(8461:8465): inicio la actualizacion del pcb
+[INFO] 00:41:43:535 KERNELPLANIFICADORES/(8461:8465): inicio la actualizacion del pcb
+[INFO] 00:41:43:535 KERNELPLANIFICADORES/(8461:8465): inicio la actualizacion del pcb
+[INFO] 00:41:43:535 KERNELPLANIFICADORES/(8461:8465): inicio la actualizacion del pcb
+[INFO] 00:41:43:535 KERNELPLANIFICADORES/(8461:8465): inicio la actualizacion del pcb
+[INFO] 00:42:19:905 KERNELPLANIFICADORES/(8502:8502): Antes de iniciar planificadores
+[INFO] 00:42:19:905 KERNELPLANIFICADORES/(8502:8502): SAli de iniciar planificadores
+[INFO] 00:42:19:906 KERNELPLANIFICADORES/(8502:8507): SE CREA EL CONTADOR DE QUANTUM
+[INFO] 00:42:19:906 KERNELPLANIFICADORES/(8502:8506): INICIALIZANDO CORTO PLAZO RR
+[INFO] 00:42:19:906 KERNELPLANIFICADORES/(8502:8505): Iniciando planificador a largo plazo con: RR
+[INFO] 00:42:22:909 KERNELPLANIFICADORES/(8502:8505): Salido de colaNEW ID: 0
+[INFO] 00:42:22:909 KERNELPLANIFICADORES/(8502:8505): Agregado a colaREADY ID: 0
+[INFO] 00:42:22:909 KERNELPLANIFICADORES/(8502:8505): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 00:42:22:909 KERNELPLANIFICADORES/(8502:8505): Cantidad de procesos en READY: 1
+[INFO] 00:42:22:909 KERNELPLANIFICADORES/(8502:8505): Cantidad grado de multiprogramacion: 4
+[INFO] 00:42:22:909 KERNELPLANIFICADORES/(8502:8505): Cantidad de procesos en memoria: 1
+[INFO] 00:42:22:909 KERNELPLANIFICADORES/(8502:8506): Salido de colaREADY ID: 0
+[INFO] 00:42:22:909 KERNELPLANIFICADORES/(8502:8506): Entrado EXEC QUEUE ID: 0
+[INFO] 00:42:22:909 KERNELPLANIFICADORES/(8502:8506): PID: <0> - Estado Anterior: <1> - Estado Actual: <2>
+[INFO] 00:42:22:909 KERNELPLANIFICADORES/(8502:8506): Salido EXEC QUEUE ID: 0
+[INFO] 00:42:22:910 KERNELPLANIFICADORES/(8502:8506): inicio la actualizacion del pcb
+[INFO] 00:42:22:910 KERNELPLANIFICADORES/(8502:8506): inicio la actualizacion del pcb
+[INFO] 00:42:22:910 KERNELPLANIFICADORES/(8502:8506): inicio la actualizacion del pcb
+[INFO] 00:42:22:910 KERNELPLANIFICADORES/(8502:8506): inicio la actualizacion del pcb
+[INFO] 00:42:22:910 KERNELPLANIFICADORES/(8502:8506): inicio la actualizacion del pcb
+[INFO] 00:42:22:910 KERNELPLANIFICADORES/(8502:8506): inicio la actualizacion del pcb
+[INFO] 00:42:22:910 KERNELPLANIFICADORES/(8502:8506): inicio la actualizacion del pcb
+[INFO] 00:42:22:910 KERNELPLANIFICADORES/(8502:8506): inicio la actualizacion del pcb
+[INFO] 00:43:59:664 KERNELPLANIFICADORES/(8610:8610): Antes de iniciar planificadores
+[INFO] 00:43:59:664 KERNELPLANIFICADORES/(8610:8610): SAli de iniciar planificadores
+[INFO] 00:43:59:664 KERNELPLANIFICADORES/(8610:8621): SE CREA EL CONTADOR DE QUANTUM
+[INFO] 00:43:59:664 KERNELPLANIFICADORES/(8610:8620): INICIALIZANDO CORTO PLAZO RR
+[INFO] 00:43:59:664 KERNELPLANIFICADORES/(8610:8619): Iniciando planificador a largo plazo con: RR
+[INFO] 00:44:02:666 KERNELPLANIFICADORES/(8610:8619): Salido de colaNEW ID: 0
+[INFO] 00:44:02:666 KERNELPLANIFICADORES/(8610:8619): Agregado a colaREADY ID: 0
+[INFO] 00:44:02:666 KERNELPLANIFICADORES/(8610:8619): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 00:44:02:666 KERNELPLANIFICADORES/(8610:8619): Cantidad de procesos en READY: 1
+[INFO] 00:44:02:666 KERNELPLANIFICADORES/(8610:8619): Cantidad grado de multiprogramacion: 4
+[INFO] 00:44:02:666 KERNELPLANIFICADORES/(8610:8619): Cantidad de procesos en memoria: 1
+[INFO] 00:44:02:666 KERNELPLANIFICADORES/(8610:8620): Salido de colaREADY ID: 0
+[INFO] 00:44:02:666 KERNELPLANIFICADORES/(8610:8620): Entrado EXEC QUEUE ID: 0
+[INFO] 00:44:02:666 KERNELPLANIFICADORES/(8610:8620): PID: <0> - Estado Anterior: <1> - Estado Actual: <2>
+[INFO] 00:44:02:667 KERNELPLANIFICADORES/(8610:8620): Salido EXEC QUEUE ID: 0
+[INFO] 00:44:02:668 KERNELPLANIFICADORES/(8610:8620): Actualizando el pcb
+[INFO] 00:44:02:668 KERNELPLANIFICADORES/(8610:8620): Fin Actualizando el pcb
+[INFO] 00:44:02:668 KERNELPLANIFICADORES/(8610:8620): mostrando pcb el pcb
+[INFO] 00:44:44:665 KERNELPLANIFICADORES/(8706:8706): Antes de iniciar planificadores
+[INFO] 00:44:44:665 KERNELPLANIFICADORES/(8706:8706): SAli de iniciar planificadores
+[INFO] 00:44:44:665 KERNELPLANIFICADORES/(8706:8711): SE CREA EL CONTADOR DE QUANTUM
+[INFO] 00:44:44:666 KERNELPLANIFICADORES/(8706:8710): INICIALIZANDO CORTO PLAZO RR
+[INFO] 00:44:44:666 KERNELPLANIFICADORES/(8706:8709): Iniciando planificador a largo plazo con: RR
+[INFO] 00:44:47:667 KERNELPLANIFICADORES/(8706:8709): Salido de colaNEW ID: 0
+[INFO] 00:44:47:667 KERNELPLANIFICADORES/(8706:8709): Agregado a colaREADY ID: 0
+[INFO] 00:44:47:667 KERNELPLANIFICADORES/(8706:8709): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 00:44:47:667 KERNELPLANIFICADORES/(8706:8709): Cantidad de procesos en READY: 1
+[INFO] 00:44:47:667 KERNELPLANIFICADORES/(8706:8709): Cantidad grado de multiprogramacion: 4
+[INFO] 00:44:47:667 KERNELPLANIFICADORES/(8706:8709): Cantidad de procesos en memoria: 1
+[INFO] 00:44:47:667 KERNELPLANIFICADORES/(8706:8710): Salido de colaREADY ID: 0
+[INFO] 00:44:47:667 KERNELPLANIFICADORES/(8706:8710): Entrado EXEC QUEUE ID: 0
+[INFO] 00:44:47:667 KERNELPLANIFICADORES/(8706:8710): PID: <0> - Estado Anterior: <1> - Estado Actual: <2>
+[INFO] 00:44:47:667 KERNELPLANIFICADORES/(8706:8710): Salido EXEC QUEUE ID: 0
+[INFO] 00:44:47:669 KERNELPLANIFICADORES/(8706:8710): Actualizando el pcb
+[INFO] 00:44:47:669 KERNELPLANIFICADORES/(8706:8710): Fin Actualizando el pcb
+[INFO] 00:44:47:669 KERNELPLANIFICADORES/(8706:8710): mostrando pcb el pcb
+[INFO] 00:44:47:669 KERNELPLANIFICADORES/(8706:8710): ---MOSTRANDO PCB DEL PROCESO---
+[INFO] 00:45:51:762 KERNELPLANIFICADORES/(8782:8782): Antes de iniciar planificadores
+[INFO] 00:45:51:763 KERNELPLANIFICADORES/(8782:8782): SAli de iniciar planificadores
+[INFO] 00:45:51:763 KERNELPLANIFICADORES/(8782:8790): SE CREA EL CONTADOR DE QUANTUM
+[INFO] 00:45:51:763 KERNELPLANIFICADORES/(8782:8789): INICIALIZANDO CORTO PLAZO RR
+[INFO] 00:45:51:763 KERNELPLANIFICADORES/(8782:8788): Iniciando planificador a largo plazo con: RR
+[INFO] 00:45:54:765 KERNELPLANIFICADORES/(8782:8788): Salido de colaNEW ID: 0
+[INFO] 00:45:54:765 KERNELPLANIFICADORES/(8782:8788): Agregado a colaREADY ID: 0
+[INFO] 00:45:54:765 KERNELPLANIFICADORES/(8782:8788): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 00:45:54:765 KERNELPLANIFICADORES/(8782:8788): Cantidad de procesos en READY: 1
+[INFO] 00:45:54:765 KERNELPLANIFICADORES/(8782:8788): Cantidad grado de multiprogramacion: 4
+[INFO] 00:45:54:765 KERNELPLANIFICADORES/(8782:8788): Cantidad de procesos en memoria: 1
+[INFO] 00:45:54:765 KERNELPLANIFICADORES/(8782:8789): Salido de colaREADY ID: 0
+[INFO] 00:45:54:765 KERNELPLANIFICADORES/(8782:8789): Entrado EXEC QUEUE ID: 0
+[INFO] 00:45:54:765 KERNELPLANIFICADORES/(8782:8789): PID: <0> - Estado Anterior: <1> - Estado Actual: <2>
+[INFO] 00:45:54:765 KERNELPLANIFICADORES/(8782:8789): Salido EXEC QUEUE ID: 0
+[INFO] 00:45:54:766 KERNELPLANIFICADORES/(8782:8789): Actualizando el pcb
+[INFO] 00:45:54:766 KERNELPLANIFICADORES/(8782:8789): Fin Actualizando el pcb
+[INFO] 00:45:54:766 KERNELPLANIFICADORES/(8782:8789): ---MOSTRANDO PCB DEL PROCESO---
+[INFO] 00:45:54:766 KERNELPLANIFICADORES/(8782:8789): ID del proceso: 0
+[INFO] 00:45:54:766 KERNELPLANIFICADORES/(8782:8789): Estado del proceso: 0
+[INFO] 00:46:47:599 KERNELPLANIFICADORES/(8866:8866): Antes de iniciar planificadores
+[INFO] 00:46:47:599 KERNELPLANIFICADORES/(8866:8866): SAli de iniciar planificadores
+[INFO] 00:46:47:599 KERNELPLANIFICADORES/(8866:8877): SE CREA EL CONTADOR DE QUANTUM
+[INFO] 00:46:47:599 KERNELPLANIFICADORES/(8866:8876): INICIALIZANDO CORTO PLAZO RR
+[INFO] 00:46:47:599 KERNELPLANIFICADORES/(8866:8875): Iniciando planificador a largo plazo con: RR
+[INFO] 00:46:50:612 KERNELPLANIFICADORES/(8866:8875): Salido de colaNEW ID: 0
+[INFO] 00:46:50:612 KERNELPLANIFICADORES/(8866:8875): Agregado a colaREADY ID: 0
+[INFO] 00:46:50:612 KERNELPLANIFICADORES/(8866:8875): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 00:46:50:612 KERNELPLANIFICADORES/(8866:8875): Cantidad de procesos en READY: 1
+[INFO] 00:46:50:612 KERNELPLANIFICADORES/(8866:8875): Cantidad grado de multiprogramacion: 4
+[INFO] 00:46:50:612 KERNELPLANIFICADORES/(8866:8875): Cantidad de procesos en memoria: 1
+[INFO] 00:46:50:612 KERNELPLANIFICADORES/(8866:8876): Salido de colaREADY ID: 0
+[INFO] 00:46:50:612 KERNELPLANIFICADORES/(8866:8876): Entrado EXEC QUEUE ID: 0
+[INFO] 00:46:50:612 KERNELPLANIFICADORES/(8866:8876): PID: <0> - Estado Anterior: <1> - Estado Actual: <2>
+[INFO] 00:46:50:612 KERNELPLANIFICADORES/(8866:8876): Salido EXEC QUEUE ID: 0
+[INFO] 00:46:50:613 KERNELPLANIFICADORES/(8866:8876): ---MOSTRANDO PCB DEL PROCESO---
+[INFO] 00:46:50:613 KERNELPLANIFICADORES/(8866:8876): ID del proceso: 0
+[INFO] 00:46:50:613 KERNELPLANIFICADORES/(8866:8876): Estado del proceso: 2
+[INFO] 00:46:50:613 KERNELPLANIFICADORES/(8866:8876): Program Counter del proceso: 0
+[INFO] 00:46:50:613 KERNELPLANIFICADORES/(8866:8876): Contexto de registros del proceso. AX: 0. BX: 0. CX: 0. DX: 0
+[INFO] 00:46:50:613 KERNELPLANIFICADORES/(8866:8876): Tamanio de los segmentos: 64
+[INFO] 00:46:50:613 KERNELPLANIFICADORES/(8866:8876): Tamanio de los segmentos: 256
+[INFO] 00:46:50:613 KERNELPLANIFICADORES/(8866:8876): Tamanio de los segmentos: 128
+[INFO] 00:46:50:613 KERNELPLANIFICADORES/(8866:8876): Tamanio de los segmentos: 32
+[INFO] 00:46:50:613 KERNELPLANIFICADORES/(8866:8876): Actualizando el pcb
+[INFO] 00:46:50:613 KERNELPLANIFICADORES/(8866:8876): Fin Actualizando el pcb
+[INFO] 00:46:50:613 KERNELPLANIFICADORES/(8866:8876): mostrando pcb el pcb
+[INFO] 00:46:50:613 KERNELPLANIFICADORES/(8866:8876): ---MOSTRANDO PCB DEL PROCESO---
+[INFO] 00:47:55:594 KERNELPLANIFICADORES/(8941:8941): Antes de iniciar planificadores
+[INFO] 00:47:55:595 KERNELPLANIFICADORES/(8941:8941): SAli de iniciar planificadores
+[INFO] 00:47:55:595 KERNELPLANIFICADORES/(8941:8949): SE CREA EL CONTADOR DE QUANTUM
+[INFO] 00:47:55:595 KERNELPLANIFICADORES/(8941:8947): Iniciando planificador a largo plazo con: RR
+[INFO] 00:47:55:595 KERNELPLANIFICADORES/(8941:8948): INICIALIZANDO CORTO PLAZO RR
+[INFO] 00:47:58:616 KERNELPLANIFICADORES/(8941:8947): Salido de colaNEW ID: 0
+[INFO] 00:47:58:617 KERNELPLANIFICADORES/(8941:8947): Agregado a colaREADY ID: 0
+[INFO] 00:47:58:618 KERNELPLANIFICADORES/(8941:8948): Salido de colaREADY ID: 0
+[INFO] 00:47:58:618 KERNELPLANIFICADORES/(8941:8948): Entrado EXEC QUEUE ID: 0
+[INFO] 00:47:58:618 KERNELPLANIFICADORES/(8941:8948): PID: <0> - Estado Anterior: <1> - Estado Actual: <2>
+[INFO] 00:47:58:618 KERNELPLANIFICADORES/(8941:8947): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 00:47:58:619 KERNELPLANIFICADORES/(8941:8948): Salido EXEC QUEUE ID: 0
+[INFO] 00:47:58:619 KERNELPLANIFICADORES/(8941:8947): Cantidad de procesos en READY: 0
+[INFO] 00:47:58:619 KERNELPLANIFICADORES/(8941:8947): Cantidad grado de multiprogramacion: 4
+[INFO] 00:47:58:620 KERNELPLANIFICADORES/(8941:8947): Cantidad de procesos en memoria: 1
+[INFO] 00:47:58:621 KERNELPLANIFICADORES/(8941:8948): Actualizando el pcb
+[INFO] 00:47:58:621 KERNELPLANIFICADORES/(8941:8948): Fin Actualizando el pcb
+[INFO] 00:47:58:621 KERNELPLANIFICADORES/(8941:8948): ---MOSTRANDO PCB DEL PROCESO---
+[INFO] 00:48:43:837 KERNELPLANIFICADORES/(9008:9008): Antes de iniciar planificadores
+[INFO] 00:48:43:837 KERNELPLANIFICADORES/(9008:9008): SAli de iniciar planificadores
+[INFO] 00:48:43:837 KERNELPLANIFICADORES/(9008:9015): INICIALIZANDO CORTO PLAZO RR
+[INFO] 00:48:43:837 KERNELPLANIFICADORES/(9008:9016): SE CREA EL CONTADOR DE QUANTUM
+[INFO] 00:48:43:837 KERNELPLANIFICADORES/(9008:9014): Iniciando planificador a largo plazo con: RR
+[INFO] 00:48:46:840 KERNELPLANIFICADORES/(9008:9014): Salido de colaNEW ID: 0
+[INFO] 00:48:46:840 KERNELPLANIFICADORES/(9008:9014): Agregado a colaREADY ID: 0
+[INFO] 00:48:46:840 KERNELPLANIFICADORES/(9008:9014): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 00:48:46:840 KERNELPLANIFICADORES/(9008:9014): Cantidad de procesos en READY: 1
+[INFO] 00:48:46:840 KERNELPLANIFICADORES/(9008:9014): Cantidad grado de multiprogramacion: 4
+[INFO] 00:48:46:840 KERNELPLANIFICADORES/(9008:9014): Cantidad de procesos en memoria: 1
+[INFO] 00:48:46:840 KERNELPLANIFICADORES/(9008:9015): Salido de colaREADY ID: 0
+[INFO] 00:48:46:840 KERNELPLANIFICADORES/(9008:9015): Entrado EXEC QUEUE ID: 0
+[INFO] 00:48:46:840 KERNELPLANIFICADORES/(9008:9015): PID: <0> - Estado Anterior: <1> - Estado Actual: <2>
+[INFO] 00:48:46:840 KERNELPLANIFICADORES/(9008:9015): Salido EXEC QUEUE ID: 0
+[INFO] 00:48:46:841 KERNELPLANIFICADORES/(9008:9015): Actualizando el pcb
+[INFO] 00:48:46:841 KERNELPLANIFICADORES/(9008:9015): ---MOSTRANDO PCB DEL PROCESO---
+[INFO] 00:48:46:841 KERNELPLANIFICADORES/(9008:9015): ID del proceso: 1275072576
+[INFO] 00:48:46:841 KERNELPLANIFICADORES/(9008:9015): Estado del proceso: 32697
+[INFO] 00:49:33:710 KERNELPLANIFICADORES/(9085:9085): Antes de iniciar planificadores
+[INFO] 00:49:33:710 KERNELPLANIFICADORES/(9085:9085): SAli de iniciar planificadores
+[INFO] 00:49:33:710 KERNELPLANIFICADORES/(9085:9090): SE CREA EL CONTADOR DE QUANTUM
+[INFO] 00:49:33:711 KERNELPLANIFICADORES/(9085:9088): Iniciando planificador a largo plazo con: RR
+[INFO] 00:49:33:711 KERNELPLANIFICADORES/(9085:9089): INICIALIZANDO CORTO PLAZO RR
+[INFO] 00:49:36:712 KERNELPLANIFICADORES/(9085:9088): Salido de colaNEW ID: 0
+[INFO] 00:49:36:712 KERNELPLANIFICADORES/(9085:9088): Agregado a colaREADY ID: 0
+[INFO] 00:49:36:712 KERNELPLANIFICADORES/(9085:9088): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 00:49:36:712 KERNELPLANIFICADORES/(9085:9089): Salido de colaREADY ID: 0
+[INFO] 00:49:36:712 KERNELPLANIFICADORES/(9085:9088): Cantidad de procesos en READY: 0
+[INFO] 00:49:36:712 KERNELPLANIFICADORES/(9085:9088): Cantidad grado de multiprogramacion: 4
+[INFO] 00:49:36:712 KERNELPLANIFICADORES/(9085:9088): Cantidad de procesos en memoria: 1
+[INFO] 00:49:36:712 KERNELPLANIFICADORES/(9085:9089): Entrado EXEC QUEUE ID: 0
+[INFO] 00:49:36:713 KERNELPLANIFICADORES/(9085:9089): PID: <0> - Estado Anterior: <1> - Estado Actual: <2>
+[INFO] 00:49:36:713 KERNELPLANIFICADORES/(9085:9089): Salido EXEC QUEUE ID: 0
+[INFO] 00:49:36:714 KERNELPLANIFICADORES/(9085:9089): Actualizando el pcb
+[INFO] 00:49:36:714 KERNELPLANIFICADORES/(9085:9089): ---MOSTRANDO PCB DEL PROCESO---
+[INFO] 00:49:36:714 KERNELPLANIFICADORES/(9085:9089): ID del proceso: 0
+[INFO] 00:49:36:714 KERNELPLANIFICADORES/(9085:9089): Estado del proceso: 2
+[INFO] 00:49:36:714 KERNELPLANIFICADORES/(9085:9089): Program Counter del proceso: 0
+[INFO] 00:49:36:714 KERNELPLANIFICADORES/(9085:9089): Contexto de registros del proceso. AX: 0. BX: 0. CX: 0. DX: 0
+[INFO] 00:49:36:714 KERNELPLANIFICADORES/(9085:9089): Tamanio de los segmentos: 64
+[INFO] 00:49:36:714 KERNELPLANIFICADORES/(9085:9089): Tamanio de los segmentos: 256
+[INFO] 00:49:36:714 KERNELPLANIFICADORES/(9085:9089): Tamanio de los segmentos: 128
+[INFO] 00:49:36:714 KERNELPLANIFICADORES/(9085:9089): Tamanio de los segmentos: 32
+[INFO] 00:49:36:714 KERNELPLANIFICADORES/(9085:9089): ---MOSTRANDO PCB DEL PROCESO---
+[INFO] 00:49:36:714 KERNELPLANIFICADORES/(9085:9089): ID del proceso: 0
+[INFO] 00:49:36:714 KERNELPLANIFICADORES/(9085:9089): Estado del proceso: 2
+[INFO] 00:49:36:714 KERNELPLANIFICADORES/(9085:9089): Program Counter del proceso: 0
+[INFO] 00:49:36:714 KERNELPLANIFICADORES/(9085:9089): Contexto de registros del proceso. AX: 0. BX: 0. CX: 0. DX: 0
+[INFO] 00:49:36:714 KERNELPLANIFICADORES/(9085:9089): Tamanio de los segmentos: 64
+[INFO] 00:49:36:714 KERNELPLANIFICADORES/(9085:9089): Tamanio de los segmentos: 256
+[INFO] 00:49:36:714 KERNELPLANIFICADORES/(9085:9089): Tamanio de los segmentos: 128
+[INFO] 00:49:36:714 KERNELPLANIFICADORES/(9085:9089): Tamanio de los segmentos: 32
+[INFO] 00:49:36:714 KERNELPLANIFICADORES/(9085:9089): Fin Actualizando el pcb
+[INFO] 00:49:36:714 KERNELPLANIFICADORES/(9085:9089): Process status 2
+[INFO] 00:49:36:714 KERNELPLANIFICADORES/(9085:9089): DevueltoConMotivo: 4
+[INFO] 00:49:36:714 KERNELPLANIFICADORES/(9085:9089): DevueltoConMotivo: 6
+[INFO] 00:49:36:714 KERNELPLANIFICADORES/(9085:9089): largo del dispositivo: 1668507972
+[INFO] 00:51:23:842 KERNELPLANIFICADORES/(9085:9089): Dispositivo: o
+[INFO] 00:51:23:842 KERNELPLANIFICADORES/(9085:9089): Cant a ejecutar: 91932947
+[INFO] 00:52:54:088 KERNELPLANIFICADORES/(9363:9363): Antes de iniciar planificadores
+[INFO] 00:52:54:088 KERNELPLANIFICADORES/(9363:9363): SAli de iniciar planificadores
+[INFO] 00:52:54:088 KERNELPLANIFICADORES/(9363:9366): Iniciando planificador a largo plazo con: RR
+[INFO] 00:52:54:088 KERNELPLANIFICADORES/(9363:9368): SE CREA EL CONTADOR DE QUANTUM
+[INFO] 00:52:54:089 KERNELPLANIFICADORES/(9363:9367): INICIALIZANDO CORTO PLAZO RR
+[INFO] 00:52:57:090 KERNELPLANIFICADORES/(9363:9366): Salido de colaNEW ID: 0
+[INFO] 00:52:57:090 KERNELPLANIFICADORES/(9363:9366): Agregado a colaREADY ID: 0
+[INFO] 00:52:57:090 KERNELPLANIFICADORES/(9363:9366): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 00:52:57:090 KERNELPLANIFICADORES/(9363:9366): Cantidad de procesos en READY: 1
+[INFO] 00:52:57:090 KERNELPLANIFICADORES/(9363:9366): Cantidad grado de multiprogramacion: 4
+[INFO] 00:52:57:090 KERNELPLANIFICADORES/(9363:9366): Cantidad de procesos en memoria: 1
+[INFO] 00:52:57:090 KERNELPLANIFICADORES/(9363:9367): Salido de colaREADY ID: 0
+[INFO] 00:52:57:090 KERNELPLANIFICADORES/(9363:9367): Entrado EXEC QUEUE ID: 0
+[INFO] 00:52:57:090 KERNELPLANIFICADORES/(9363:9367): PID: <0> - Estado Anterior: <1> - Estado Actual: <2>
+[INFO] 00:52:57:091 KERNELPLANIFICADORES/(9363:9367): Salido EXEC QUEUE ID: 0
+[INFO] 00:52:57:092 KERNELPLANIFICADORES/(9363:9367): Actualizando el pcb
+[INFO] 00:52:57:092 KERNELPLANIFICADORES/(9363:9367): Fin Actualizando el pcb
+[INFO] 00:52:57:092 KERNELPLANIFICADORES/(9363:9367): ---MOSTRANDO PCB DEL PROCESO---
+[INFO] 00:52:57:092 KERNELPLANIFICADORES/(9363:9367): ID del proceso: 23
+[INFO] 00:52:57:092 KERNELPLANIFICADORES/(9363:9367): Estado del proceso: 2
+[INFO] 00:52:57:092 KERNELPLANIFICADORES/(9363:9367): Program Counter del proceso: 0
+[INFO] 00:52:57:092 KERNELPLANIFICADORES/(9363:9367): Contexto de registros del proceso. AX: 0. BX: 0. CX: 0. DX: 0
+[INFO] 00:52:57:092 KERNELPLANIFICADORES/(9363:9367): Tamanio de los segmentos: 64
+[INFO] 00:52:57:092 KERNELPLANIFICADORES/(9363:9367): Tamanio de los segmentos: 256
+[INFO] 00:52:57:092 KERNELPLANIFICADORES/(9363:9367): Tamanio de los segmentos: 128
+[INFO] 00:52:57:092 KERNELPLANIFICADORES/(9363:9367): Tamanio de los segmentos: 32
+[INFO] 00:52:57:092 KERNELPLANIFICADORES/(9363:9367): Process status 2
+[INFO] 00:52:57:093 KERNELPLANIFICADORES/(9363:9367): DevueltoConMotivo: 4
+[INFO] 00:52:57:093 KERNELPLANIFICADORES/(9363:9367): DevueltoConMotivo: 6
+[INFO] 00:52:57:093 KERNELPLANIFICADORES/(9363:9367): largo del dispositivo: 1668507972
+[INFO] 00:54:35:247 KERNELPLANIFICADORES/(9410:9410): Antes de iniciar planificadores
+[INFO] 00:54:35:247 KERNELPLANIFICADORES/(9410:9410): SAli de iniciar planificadores
+[INFO] 00:54:35:247 KERNELPLANIFICADORES/(9410:9415): SE CREA EL CONTADOR DE QUANTUM
+[INFO] 00:54:35:247 KERNELPLANIFICADORES/(9410:9414): INICIALIZANDO CORTO PLAZO RR
+[INFO] 00:54:35:247 KERNELPLANIFICADORES/(9410:9413): Iniciando planificador a largo plazo con: RR
+[INFO] 00:54:38:251 KERNELPLANIFICADORES/(9410:9413): Salido de colaNEW ID: 0
+[INFO] 00:54:38:251 KERNELPLANIFICADORES/(9410:9413): Agregado a colaREADY ID: 0
+[INFO] 00:54:38:251 KERNELPLANIFICADORES/(9410:9413): PID: <0> - Estado Anterior: <0> - Estado Actual: <1>
+[INFO] 00:54:38:251 KERNELPLANIFICADORES/(9410:9413): Cantidad de procesos en READY: 1
+[INFO] 00:54:38:251 KERNELPLANIFICADORES/(9410:9413): Cantidad grado de multiprogramacion: 4
+[INFO] 00:54:38:251 KERNELPLANIFICADORES/(9410:9413): Cantidad de procesos en memoria: 1
+[INFO] 00:54:38:251 KERNELPLANIFICADORES/(9410:9414): Salido de colaREADY ID: 0
+[INFO] 00:54:38:251 KERNELPLANIFICADORES/(9410:9414): Entrado EXEC QUEUE ID: 0
+[INFO] 00:54:38:251 KERNELPLANIFICADORES/(9410:9414): PID: <0> - Estado Anterior: <1> - Estado Actual: <2>
+[INFO] 00:54:38:252 KERNELPLANIFICADORES/(9410:9414): Salido EXEC QUEUE ID: 0
+[INFO] 00:54:38:255 KERNELPLANIFICADORES/(9410:9414): Actualizando el pcb
+[INFO] 00:54:38:255 KERNELPLANIFICADORES/(9410:9414): Fin Actualizando el pcb
+[INFO] 00:54:38:255 KERNELPLANIFICADORES/(9410:9414): ---MOSTRANDO PCB DEL PROCESO---
+[INFO] 00:54:38:255 KERNELPLANIFICADORES/(9410:9414): ID del proceso: 23
+[INFO] 00:54:38:255 KERNELPLANIFICADORES/(9410:9414): Estado del proceso: 2
+[INFO] 00:54:38:255 KERNELPLANIFICADORES/(9410:9414): Program Counter del proceso: 0
+[INFO] 00:54:38:255 KERNELPLANIFICADORES/(9410:9414): Contexto de registros del proceso. AX: 0. BX: 0. CX: 0. DX: 0
+[INFO] 00:54:38:255 KERNELPLANIFICADORES/(9410:9414): Tamanio de los segmentos: 64
+[INFO] 00:54:38:255 KERNELPLANIFICADORES/(9410:9414): Tamanio de los segmentos: 256
+[INFO] 00:54:38:255 KERNELPLANIFICADORES/(9410:9414): Tamanio de los segmentos: 128
+[INFO] 00:54:38:255 KERNELPLANIFICADORES/(9410:9414): Tamanio de los segmentos: 32
+[INFO] 00:54:38:256 KERNELPLANIFICADORES/(9410:9414): Process status 2
+[INFO] 00:54:38:256 KERNELPLANIFICADORES/(9410:9414): DevueltoConMotivo: 4
+[INFO] 00:54:38:256 KERNELPLANIFICADORES/(9410:9414): largo del dispositivo: 6
+[INFO] 00:54:38:256 KERNELPLANIFICADORES/(9410:9414): Dispositivo: Disco
+[INFO] 00:54:38:256 KERNELPLANIFICADORES/(9410:9414): Cant a ejecutar: 10
+>>>>>>> d3dc53a385faab65a2d50890681e9480c8d360e1

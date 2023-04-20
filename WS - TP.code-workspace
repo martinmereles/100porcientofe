@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"temporal.h": "c",
+			"memoria.h": "c",
+			"list.h": "c"
+		}
+	}
+}
